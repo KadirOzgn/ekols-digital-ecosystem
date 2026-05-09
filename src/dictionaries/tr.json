@@ -1,0 +1,94 @@
+{
+  "Header": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünlerimiz",
+    "projects": "Projelerimiz",
+    "contact": "İletişim",
+    "getQuote": "Teklif Al",
+    "archEng": "MİMARLIK & MÜHENDİSLİK"
+  },
+  "Hero": {
+    "badge": "Vizyoner Mühendislik",
+    "titleLine1": "GELECEĞİ",
+    "titleLine2": "TASARLIYORUZ",
+    "description": "Teknik mühendislik ve lüks estetiğin kusursuz birleşimi. EKOLS, modern yaşam alanlarını milimetrik hassasiyetle inşa eder.",
+    "explore": "Projeleri Keşfet",
+    "process": "Sürecimiz",
+    "scroll": "SCROLL"
+  },
+  "TechnicalStats": {
+    "stat1Value": "120+",
+    "stat1Label": "Yıllık Deneyim",
+    "stat2Value": "45K",
+    "stat2Label": "M2 İnşaat Alanı",
+    "stat3Value": "0.2",
+    "stat3Label": "Hata Payı (mm)"
+  },
+  "FeaturedProjects": {
+    "badge": "Ekols Koleksiyonu",
+    "title": "ÜRÜNLERİMİZ",
+    "scrollAll": "Tümünü Kaydırarak Gör",
+    "viewAll": "Tümünü Gör",
+    "noImage": "Görsel Bekleniyor"
+  },
+  "MediaGallery": {
+    "badge": "Görsel Ekosistem",
+    "title": "SİSTEMATİK ESTETİK",
+    "item1Cat": "STRÜKTÜR / FOTOĞRAF",
+    "item1Title": "STRÜKTÜREL ÇERÇEVE",
+    "item2Cat": "CEPHE / VİDEO",
+    "item2Title": "CEPHE PANELİ (HAREKETLİ)",
+    "item2Badge": "VİDEO İÇERİK",
+    "item3Cat": "TEKNİK / 3D MODEL",
+    "item3Title": "BAĞLANTI ELEMANI (3D)",
+    "item3Badge": "INTERAKTİF 3D"
+  },
+  "CtaSection": {
+    "badge": "Birlikte İnşa Edelim",
+    "titleLine1": "BİR SONRAKİ VİZYONUNUZU",
+    "titleLine2": "MÜKEMMELLEŞTİRELİM.",
+    "description": "EKOLS, mimari fikirlerinizi üst düzey mühendislik çözümleriyle somut birer sanat eserine dönüştürür.",
+    "button": "Projenizi Başlatın"
+  },
+  "About": {
+    "badge": "Tasarım Ekosistemi",
+    "title": "İNOVASYONUN ÜÇ KÖŞESİ",
+    "description": "Biz, mevcut olanı kopyalamak yerine, henüz var olmayanı yaratmak için bir araya gelmiş bir mühendis ve iki mimardan oluşan bir tasarım ekosistemiyiz.",
+    "engTitle": "Mühendislik Hassasiyeti",
+    "engDesc": "Tasarımlarımızın ardındaki operasyonel zekayı, küresel erişim ağlarını ve sistem mimarisini kurgular.",
+    "archTitle": "Mimari Estetik",
+    "archDesc": "Mekana karakter katan formları, malzemenin en saf hali olan 30 mm Huş MDF ile harmanlayarak markanın tasarım dilini şekillendiren mimari dokunuş."
+  },
+  "Projects": {
+    "badge": "Çok Yakında",
+    "title": "PROJELERİMİZ",
+    "description": "Mimari ve mühendislik vizyonumuzla tamamlanan ve üzerinde çalıştığımız özel projelerimiz çok yakında bu alanda detaylı olarak sergilenecektir."
+  },
+  "Contact": {
+    "title": "TEKLİF AL",
+    "description": "Projenizin detaylarını bizimle paylaşın, mühendis ve mimarlardan oluşan uzman ekibimiz en kısa sürede size dönüş yapsın.",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "projectType": "Proje Türü",
+      "projectTypeOptions": {
+        "residential": "Konut / Yaşam Alanı",
+        "commercial": "Ticari / Ofis",
+        "product": "Özel Ürün Tasarımı",
+        "other": "Diğer"
+      },
+      "message": "Proje Detayları ve Beklentileriniz",
+      "submit": "Gönder"
+    }
+  },
+  "Footer": {
+    "description": "Mimari hassasiyet ve mühendislik vizyonuyla yarının silüetini bugün tasarlıyoruz.",
+    "menuTitle": "Menü",
+    "officeTitle": "Ofis",
+    "storesTitle": "Mağazalarımız",
+    "followTitle": "Takip Edin",
+    "rights": "Tüm hakları saklıdır."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "Header": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "projects": "Projects",
+    "contact": "Contact",
+    "getQuote": "Get Quote",
+    "archEng": "Architecture & Engineering"
+  },
+  "Hero": {
+    "badge": "Visionary Engineering",
+    "titleLine1": "DESIGNING",
+    "titleLine2": "THE FUTURE",
+    "description": "The perfect blend of technical engineering and luxury aesthetics. EKOLS builds modern living spaces with millimeter precision.",
+    "explore": "Explore Projects",
+    "process": "Our Process",
+    "scroll": "SCROLL"
+  },
+  "TechnicalStats": {
+    "stat1Value": "120+",
+    "stat1Label": "Completed Projects",
+    "stat2Value": "45K",
+    "stat2Label": "M2 Construction Area",
+    "stat3Value": "0.2",
+    "stat3Label": "Margin of Error (mm)"
+  },
+  "FeaturedProjects": {
+    "badge": "Ekols Collection",
+    "title": "OUR PRODUCTS",
+    "scrollAll": "Scroll to View All",
+    "viewAll": "View All",
+    "noImage": "Awaiting Image"
+  },
+  "MediaGallery": {
+    "badge": "Visual Ecosystem",
+    "title": "SYSTEMATIC AESTHETICS",
+    "item1Cat": "STRUCTURE / PHOTOGRAPH",
+    "item1Title": "STRUCTURAL FRAME",
+    "item2Cat": "FACADE / VIDEO",
+    "item2Title": "FACADE PANEL (DYNAMIC)",
+    "item2Badge": "VIDEO CONTENT",
+    "item3Cat": "TECHNICAL / 3D MODEL",
+    "item3Title": "CONNECTOR (3D)",
+    "item3Badge": "INTERACTIVE 3D"
+  },
+  "CtaSection": {
+    "badge": "Let's Build Together",
+    "titleLine1": "LET'S PERFECT",
+    "titleLine2": "YOUR NEXT VISION.",
+    "description": "EKOLS transforms your architectural ideas into tangible works of art with top-tier engineering solutions.",
+    "button": "Start Your Project"
+  },
+  "About": {
+    "badge": "Design Ecosystem",
+    "title": "THE THREE CORNERS OF INNOVATION",
+    "description": "We are a design ecosystem formed by an engineer and two architects, gathered to create what does not yet exist rather than copying what already does.",
+    "engTitle": "Engineering Precision",
+    "engDesc": "We construct the operational intelligence, global reach networks, and system architecture behind our designs.",
+    "archTitle": "Architectural Aesthetics",
+    "archDesc": "The architectural touch that shapes the brand's design language by blending forms that add character to the space with 30mm Birch MDF, the purest form of material."
+  },
+  "Projects": {
+    "badge": "Coming Soon",
+    "title": "OUR PROJECTS",
+    "description": "Our special projects completed with our architectural and engineering vision will be exhibited in detail in this area very soon."
+  },
+  "Contact": {
+    "title": "GET A QUOTE",
+    "description": "Share the details of your project with us, and our expert team of engineers and architects will get back to you as soon as possible.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "projectType": "Project Type",
+      "projectTypeOptions": {
+        "residential": "Residential / Living Space",
+        "commercial": "Commercial / Office",
+        "product": "Custom Product Design",
+        "other": "Other"
+      },
+      "message": "Project Details and Expectations",
+      "submit": "Submit"
+    }
+  },
+  "Footer": {
+    "description": "We are designing tomorrow's silhouette today with architectural precision and engineering vision.",
+    "menuTitle": "Menu",
+    "officeTitle": "Office",
+    "storesTitle": "Our Stores",
+    "followTitle": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

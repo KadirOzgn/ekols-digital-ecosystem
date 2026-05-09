@@ -1,26 +1,128 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #ff6e00;
+  --color-on-primary: #3c2f00;
+  --color-primary-container: #cc5800;
+  --color-on-primary-container: #554300;
+  --color-surface: #121414;
+  --color-surface-dim: #121414;
+  --color-surface-bright: #38393a;
+  --color-surface-container-lowest: #0d0e0f;
+  --color-surface-container-low: #1a1c1c;
+  --color-surface-container: #1e2020;
+  --color-surface-container-high: #282a2b;
+  --color-surface-container-highest: #333535;
+  --color-on-surface: #e2e2e2;
+  --color-on-surface-variant: #d0c5af;
+  --color-outline: #99907c;
+  --color-outline-variant: #4d4635;
+  --color-secondary: #c6c6c6;
+  --color-background: #121414;
+  --color-on-background: #e2e2e2;
+  --color-surface-variant: #333535;
+  
+  --spacing-xs: 4px;
+  --spacing-base: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 24px;
+  --spacing-lg: 48px;
+  --spacing-xl: 80px;
+  --spacing-margin: 64px;
+  --spacing-gutter: 24px;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Space Grotesk", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body { 
+    background-color: #121414; 
+    color: #e2e2e2;
+    font-family: var(--font-body);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Subtle Technical Grid */
+.tech-bg {
+    background-image: 
+        linear-gradient(rgba(226, 226, 226, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(226, 226, 226, 0.03) 1px, transparent 1px);
+    background-size: 80px 80px;
 }
+
+.glass {
+    background: rgba(18, 20, 20, 0.8);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid #333535;
+}
+
+.ghost-border {
+    border: 1px solid #333535;
+}
+
+.primary-glow {
+    box-shadow: 0 0 40px rgba(255, 110, 0, 0.15);
+}
+
+.bento-grid { 
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr); 
+    gap: 24px; 
+}
+
+.bento-item { 
+    overflow: hidden; 
+    position: relative; 
+    background: #1a1c1c; 
+    border: 1px solid #333535;
+}
+
+.bento-item img, .bento-item video { 
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.8s; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0.8; 
+    filter: grayscale(40%);
+}
+
+.bento-item:hover img, .bento-item:hover video { 
+    transform: scale(1.05); 
+    opacity: 1; 
+    filter: grayscale(0%);
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+.scanline {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(255, 110, 0, 0.4), transparent);
+    position: absolute;
+    animation: scan 6s linear infinite;
+}
+
+@keyframes scan {
+    0% { top: 0%; opacity: 0; }
+    50% { opacity: 0.3; }
+    100% { top: 100%; opacity: 0; }
+}
+
+/* Enforce sharp corners globally */
+* {
+    border-radius: 0 !important;
+}
+
+.section-stem {
+    border-left: 4px solid #ff6e00;
+    padding-left: 20px;
+}
+
+/* Custom Text utilities matching Tailwind config from code.html */
+.text-display-xl { font-size: 72px; line-height: 1.1; letter-spacing: -0.02em; font-weight: 700; }
+.text-headline-lg { font-size: 48px; line-height: 1.2; letter-spacing: -0.01em; font-weight: 600; }
+.text-headline-md { font-size: 32px; line-height: 1.3; font-weight: 500; }
+.text-body-lg { font-size: 18px; line-height: 1.6; font-weight: 400; }
+.text-body-md { font-size: 16px; line-height: 1.6; font-weight: 400; }
+.text-label-technical { font-size: 12px; line-height: 1; letter-spacing: 0.3em; font-weight: 600; }
+.text-nav-link { font-size: 12px; line-height: 1; letter-spacing: 0.2em; font-weight: 500; }
