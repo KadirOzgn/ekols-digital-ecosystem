@@ -86,14 +86,15 @@ export default async function ProjelerimizPage({ params }: { params: Promise<{ l
             <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-8 relative z-20">
                 {groupedProjects.length > 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-16 gap-y-20">
-                        {groupedProjects.map((project, idx) => (
-                            <ProjectSlider key={idx} title={project.title} images={project.images} />
-                        ))}
+                        {groupedProjects.map((project, idx) => {
+                            const translatedTitle = (t.items as any)?.[project.title] || project.title;
+                            return <ProjectSlider key={idx} title={translatedTitle} images={project.images} />;
+                        })}
                     </div>
                 ) : (
                     <div className="text-center py-20">
                         <span className="material-symbols-outlined text-zinc-400 text-4xl mb-4 block">folder_off</span>
-                        <p className="text-zinc-500">Proje klasörleri bulunamadı.</p>
+                        <p className="text-zinc-500">{t.noProjects || "Proje klasörleri bulunamadı."}</p>
                     </div>
                 )}
             </div>

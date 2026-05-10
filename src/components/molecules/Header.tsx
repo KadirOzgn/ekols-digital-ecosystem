@@ -44,14 +44,17 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
   return (
     <>
       <nav className={`fixed top-0 left-0 w-full z-[110] flex justify-between items-center px-6 md:px-12 py-3 md:py-4 transition-all duration-300 ${mobileMenuOpen ? 'bg-transparent border-transparent' : 'bg-[#0d0e0f]/70 backdrop-blur-xl border-b border-[#333535]/50 shadow-sm'}`}>
-        <Link href={`/${currentLang}`} className="flex items-center gap-3 md:gap-6 hover:opacity-80 transition-opacity">
+        <Link href={`/${currentLang}`} className="flex items-center gap-2 md:gap-6 hover:opacity-80 transition-opacity">
             <img src="/logo.png" alt="Ekols Logo" className="h-12 md:h-14 w-auto object-contain rounded-sm" onError={(e) => {
               e.currentTarget.style.display = 'none';
               e.currentTarget.nextElementSibling!.removeAttribute('style');
             }}/>
             <div style={{display: 'none'}} className="text-white font-display text-xl tracking-widest font-bold">EKOLS<span className="text-primary">.</span></div>
-            <div className="h-6 md:h-8 w-[1px] bg-gradient-to-b from-transparent via-[#333535] to-transparent opacity-50 ml-2 md:ml-0"></div>
-            <span className="text-[8px] md:text-xs text-zinc-500 uppercase tracking-widest font-light whitespace-nowrap">MÜHENDİSLİK &<br className="md:hidden" /> MİMARLIK</span>
+            <div className="h-6 md:h-8 w-[1px] bg-[#333535]/50 md:bg-gradient-to-b md:from-transparent md:via-[#333535] md:to-transparent"></div>
+            <div className="flex flex-col justify-center leading-[1.1]">
+                <span className="text-[6.5px] md:text-xs text-zinc-500 uppercase tracking-[0.1em] md:tracking-[0.2em] font-light">{(dict?.Header?.archEng || "ENGINEERING & ARCHITECTURE").split('&')[0].trim()} &</span>
+                <span className="text-[6.5px] md:text-xs text-zinc-500 uppercase tracking-[0.1em] md:tracking-[0.2em] font-light">{(dict?.Header?.archEng || "ENGINEERING & ARCHITECTURE").split('&')[1]?.trim()}</span>
+            </div>
         </Link>
         
         {/* Mesafe azaltıldı: gap-8 lg:gap-12 -> gap-5 lg:gap-8 */}

@@ -6,7 +6,7 @@
     "projects": "Projects",
     "contact": "Contact",
     "getQuote": "Get Quote",
-    "archEng": "Architecture & Engineering"
+    "archEng": "ENGINEERING & ARCHITECTURE"
   },
   "Hero": {
     "badge": "Visionary Engineering",
@@ -30,7 +30,19 @@
     "title": "OUR PRODUCTS",
     "scrollAll": "Scroll to View All",
     "viewAll": "View All",
-    "noImage": "Awaiting Image"
+    "noImage": "Awaiting Image",
+    "items": {
+      "p1Title": "GEOMETRIC WOODEN COFFEE TABLE", "p1Cat": "Series 01 / Wood",
+      "p2Title": "SOLID WOOD COFFEE TABLE", "p2Cat": "Series 01 / Wood",
+      "p3Title": "MINIMAL WHITE COFFEE TABLE", "p3Cat": "Series 02 / Ceramic",
+      "p4Title": "QUARTZ & GLASS COFFEE TABLE", "p4Cat": "Series 03 / Hybrid",
+      "p5Title": "BLUE ICONIC COFFEE TABLE", "p5Cat": "Series 04 / Lacquer",
+      "p6Title": "BLACK DESIGN TABLE", "p6Cat": "Series 05 / Metal",
+      "p7Title": "WAVY SIDE TABLE", "p7Cat": "Series 01 / Wood",
+      "p8Title": "KINETIC CONSOLE", "p8Cat": "Series 03 / Hybrid",
+      "p9Title": "TRAVERTINE COFFEE TABLE", "p9Cat": "Series 02 / Natural Stone",
+      "p10Title": "MINIMAL BLACK COFFEE TABLE", "p10Cat": "Series 01 / Wood"
+    }
   },
   "MediaGallery": {
     "badge": "Visual Ecosystem",
@@ -61,9 +73,20 @@
     "archDesc": "The architectural touch that shapes the brand's design language by blending forms that add character to the space with 30mm Birch MDF, the purest form of material."
   },
   "Projects": {
-    "badge": "Coming Soon",
     "title": "OUR PROJECTS",
-    "description": "Our special projects completed with our architectural and engineering vision will be exhibited in detail in this area very soon."
+    "description": "Our special projects completed with our architectural and engineering vision will be exhibited in detail in this area very soon.",
+    "items": {
+      "Ankara: Çankaya Konukevi banyo projesi": "Ankara: Çankaya Guesthouse Bathroom Project",
+      "Hatay Defne Konut  Salon Projesi": "Hatay: Defne Residential Living Room Project",
+      "Hatay Samandağ Butik Projesi": "Hatay: Samandağ Boutique Project",
+      "Hatay: Antakya Mutfak Projesi": "Hatay: Antakya Kitchen Project",
+      "Hatay: Kisecik Salon Mutfak Projesi": "Hatay: Kisecik Living Room & Kitchen Project",
+      "Irak : Erbil spor salonu projesi": "Iraq: Erbil Gym Project",
+      "KKTC Konut Cephe tasarımı projesi": "Northern Cyprus: Residential Facade Design Project",
+      "Mardin Kızıltepe Ofis Projesi ": "Mardin: Kızıltepe Office Project",
+      "Mardin:Kızıltepe Ofis projesi ": "Mardin: Kızıltepe Office Project (V2)"
+    },
+    "noProjects": "No project folders found."
   },
   "Contact": {
     "title": "GET A QUOTE",
@@ -89,6 +112,8 @@
     "officeTitle": "Office",
     "storesTitle": "Our Stores",
     "followTitle": "Follow Us",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "kvkk": "GDPR (KVKK)"
   }
 }

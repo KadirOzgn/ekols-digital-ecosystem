@@ -6,7 +6,7 @@
     "projects": "Projelerimiz",
     "contact": "İletişim",
     "getQuote": "Teklif Al",
-    "archEng": "MİMARLIK & MÜHENDİSLİK"
+    "archEng": "MÜHENDİSLİK & MİMARLIK"
   },
   "Hero": {
     "badge": "Vizyoner Mühendislik",
@@ -30,7 +30,19 @@
     "title": "ÜRÜNLERİMİZ",
     "scrollAll": "Tümünü Kaydırarak Gör",
     "viewAll": "Tümünü Gör",
-    "noImage": "Görsel Bekleniyor"
+    "noImage": "Görsel Bekleniyor",
+    "items": {
+      "p1Title": "GEOMETRİK AHŞAP SEHPA", "p1Cat": "Seri 01 / Ahşap",
+      "p2Title": "MASİF SEHPA", "p2Cat": "Seri 01 / Ahşap",
+      "p3Title": "MİNİMAL BEYAZ SEHPA", "p3Cat": "Seri 02 / Seramik",
+      "p4Title": "KUARTZ & CAM SEHPA", "p4Cat": "Seri 03 / Hibrit",
+      "p5Title": "MAVİ İKONİK SEHPA", "p5Cat": "Seri 04 / Lake",
+      "p6Title": "SİYAH TASARIM MASA", "p6Cat": "Seri 05 / Metal",
+      "p7Title": "DALGALI YAN SEHPA", "p7Cat": "Seri 01 / Ahşap",
+      "p8Title": "KİNETİK KONSOL", "p8Cat": "Seri 03 / Hibrit",
+      "p9Title": "TRAVERTEN ORTA SEHPA", "p9Cat": "Seri 02 / Doğal Taş",
+      "p10Title": "MİNİMAL SİYAH SEHPA", "p10Cat": "Seri 01 / Ahşap"
+    }
   },
   "MediaGallery": {
     "badge": "Görsel Ekosistem",
@@ -61,9 +73,20 @@
     "archDesc": "Mekana karakter katan formları, malzemenin en saf hali olan 30 mm Huş MDF ile harmanlayarak markanın tasarım dilini şekillendiren mimari dokunuş."
   },
   "Projects": {
-    "badge": "Çok Yakında",
     "title": "PROJELERİMİZ",
-    "description": "Mimari ve mühendislik vizyonumuzla tamamlanan ve üzerinde çalıştığımız özel projelerimiz çok yakında bu alanda detaylı olarak sergilenecektir."
+    "description": "Mimari ve mühendislik vizyonumuzla tamamlanan ve üzerinde çalıştığımız özel projelerimiz çok yakında bu alanda detaylı olarak sergilenecektir.",
+    "items": {
+      "Ankara: Çankaya Konukevi banyo projesi": "Ankara: Çankaya Konukevi Banyo Projesi",
+      "Hatay Defne Konut  Salon Projesi": "Hatay: Defne Konut Salon Projesi",
+      "Hatay Samandağ Butik Projesi": "Hatay: Samandağ Butik Projesi",
+      "Hatay: Antakya Mutfak Projesi": "Hatay: Antakya Mutfak Projesi",
+      "Hatay: Kisecik Salon Mutfak Projesi": "Hatay: Kisecik Salon & Mutfak Projesi",
+      "Irak : Erbil spor salonu projesi": "Irak: Erbil Spor Salonu Projesi",
+      "KKTC Konut Cephe tasarımı projesi": "KKTC: Konut Cephe Tasarımı Projesi",
+      "Mardin Kızıltepe Ofis Projesi ": "Mardin: Kızıltepe Ofis Projesi",
+      "Mardin:Kızıltepe Ofis projesi ": "Mardin: Kızıltepe Ofis Projesi (V2)"
+    },
+    "noProjects": "Proje klasörleri bulunamadı."
   },
   "Contact": {
     "title": "TEKLİF AL",
@@ -89,6 +112,8 @@
     "officeTitle": "Ofis",
     "storesTitle": "Mağazalarımız",
     "followTitle": "Takip Edin",
-    "rights": "Tüm hakları saklıdır."
+    "rights": "Tüm hakları saklıdır.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "kvkk": "KVKK"
   }
 }

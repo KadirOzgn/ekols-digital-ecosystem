@@ -82,8 +82,8 @@ export const Footer = ({ dict, currentLang }: { dict?: any, currentLang?: string
                 © 2026 EKOLS. ARCHITECTURAL PRECISION & INNOVATION.
             </p>
             <div className="flex gap-8 mt-4 md:mt-0">
-                <Link className="text-label-technical text-zinc-600 hover:text-white uppercase" href="#">Gizlilik Politikası</Link>
-                <Link className="text-label-technical text-zinc-600 hover:text-white uppercase" href="#">KVKK</Link>
+                <Link className="text-label-technical text-zinc-600 hover:text-white uppercase" href="#">{t.privacyPolicy || "Gizlilik Politikası"}</Link>
+                <Link className="text-label-technical text-zinc-600 hover:text-white uppercase" href="#">{t.kvkk || "KVKK"}</Link>
             </div>
         </div>
     </footer>

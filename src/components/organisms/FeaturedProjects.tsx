@@ -79,9 +79,14 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
             className="flex overflow-x-auto gap-4 md:gap-8 pb-8 md:pb-12 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden pr-margin"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
-            {products.map((product) => (
-                <ProductCard key={product.id} product={product} t={t} />
-            ))}
+            {products.map((product, idx) => {
+                const localizedProduct = {
+                    ...product,
+                    title: (t.items as any)?.[`p${idx + 1}Title`] || product.title,
+                    category: (t.items as any)?.[`p${idx + 1}Cat`] || product.category
+                };
+                return <ProductCard key={product.id} product={localizedProduct} t={t} />;
+            })}
         </div>
         
         <div className="md:hidden pr-margin mt-4 flex justify-end">
