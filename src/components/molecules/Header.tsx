@@ -7,7 +7,17 @@ import { usePathname } from 'next/navigation';
 export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }) => {
   const pathname = usePathname();
   const [langOpen, setLangOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    return () => { document.body.style.overflow = 'auto'; };
+  }, [mobileMenuOpen]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -32,15 +42,16 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-6 md:px-12 py-3 md:py-4 bg-[#0d0e0f]/70 backdrop-blur-xl border-b border-[#333535]/50 shadow-sm transition-all duration-300">
-        <Link href={`/${currentLang}`} className="flex items-center gap-md hover:opacity-80 transition-opacity">
+    <>
+      <nav className={`fixed top-0 left-0 w-full z-[110] flex justify-between items-center px-6 md:px-12 py-3 md:py-4 transition-all duration-300 ${mobileMenuOpen ? 'bg-transparent border-transparent' : 'bg-[#0d0e0f]/70 backdrop-blur-xl border-b border-[#333535]/50 shadow-sm'}`}>
+        <Link href={`/${currentLang}`} className="flex items-center gap-3 md:gap-6 hover:opacity-80 transition-opacity">
             <img src="/logo.png" alt="Ekols Logo" className="h-12 md:h-14 w-auto object-contain rounded-sm" onError={(e) => {
               e.currentTarget.style.display = 'none';
               e.currentTarget.nextElementSibling!.removeAttribute('style');
             }}/>
             <div style={{display: 'none'}} className="text-white font-display text-xl tracking-widest font-bold">EKOLS<span className="text-primary">.</span></div>
-            <div className="h-8 w-[1px] bg-gradient-to-b from-transparent via-[#333535] to-transparent hidden md:block opacity-50"></div>
-            <span className="text-[10px] md:text-xs text-zinc-500 hidden lg:block uppercase tracking-widest font-light">{dict?.Header?.archEng || "Architecture & Engineering"}</span>
+            <div className="h-6 md:h-8 w-[1px] bg-gradient-to-b from-transparent via-[#333535] to-transparent opacity-50 ml-2 md:ml-0"></div>
+            <span className="text-[8px] md:text-xs text-zinc-500 uppercase tracking-widest font-light whitespace-nowrap">MÜHENDİSLİK &<br className="md:hidden" /> MİMARLIK</span>
         </Link>
         
         {/* Mesafe azaltıldı: gap-8 lg:gap-12 -> gap-5 lg:gap-8 */}
@@ -105,7 +116,29 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
             >
                 {dict?.Header?.getQuote || "Teklif Al"}
             </Link>
+
+            {/* Mobile Menu Button */}
+            <button 
+                className="md:hidden flex flex-col items-center justify-center gap-[6px] w-8 h-8 z-[110]"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Toggle menu"
+            >
+                <span className={`block w-6 h-[2px] bg-white transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-[8px]' : ''}`}></span>
+                <span className={`block w-6 h-[2px] bg-white transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : ''}`}></span>
+                <span className={`block w-6 h-[2px] bg-white transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-[8px]' : ''}`}></span>
+            </button>
         </div>
-    </nav>
+
+      </nav>
+
+      {/* Fullscreen Mobile Menu Overlay */}
+      <div className={`fixed inset-0 bg-[#0d0e0f]/40 backdrop-blur-sm z-[105] flex flex-col items-center justify-center gap-8 transition-all duration-500 md:hidden pt-20 ${mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+          <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/')} className="text-headline-md text-white hover:text-primary transition-colors">{dict?.Header?.home || "Ana Sayfa"}</Link>
+          <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/hakkimizda')} className="text-headline-md text-white hover:text-primary transition-colors">{dict?.Header?.about || "Hakkımızda"}</Link>
+          <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/urunlerimiz')} className="text-headline-md text-white hover:text-primary transition-colors">{dict?.Header?.products || "Ürünlerimiz"}</Link>
+          <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/projelerimiz')} className="text-headline-md text-white hover:text-primary transition-colors">{dict?.Header?.projects || "Projelerimiz"}</Link>
+          <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/teklif-al')} className="text-headline-md text-primary">{dict?.Header?.contact || "İletişim"}</Link>
+      </div>
+    </>
   );
 };

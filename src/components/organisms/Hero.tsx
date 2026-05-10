@@ -28,27 +28,27 @@ export const Hero = ({ dict, currentLang }: { dict?: any, currentLang?: string }
             <div className="scanline"></div>
         </div>
         
-        <div className="relative z-10 max-w-5xl mt-xl">
-            <div className="section-stem mb-8">
+        <div className="relative z-10 max-w-5xl mt-24 md:mt-xl">
+            <div className="section-stem mb-6 md:mb-8">
                 <span className="text-label-technical text-primary uppercase">{t.badge}</span>
             </div>
             
-            <h1 className="text-display-xl text-white mb-10 uppercase">
+            <h1 className="text-display-xl text-white mb-6 md:mb-10 uppercase">
                 {t.titleLine1} <br/>
                 <span className="text-primary">{t.titleLine2}</span>
             </h1>
             
-            <div className="p-8 max-w-2xl mb-12 border border-[#333535] bg-[#1a1c1c]/80 backdrop-blur-md">
+            <div className="p-6 md:p-8 max-w-2xl mb-8 md:mb-12 border border-[#333535] bg-[#1a1c1c]/80 backdrop-blur-md">
                 <p className="text-body-lg text-on-surface-variant">
                     {t.description}
                 </p>
             </div>
             
-            <div className="flex flex-wrap items-center gap-6">
-                <Link href={getLocalizedPath('/projelerimiz')} className="bg-primary text-on-primary px-10 text-label-technical uppercase flex items-center justify-center transition-colors hover:bg-white h-[60px]">
+            <div className="flex flex-wrap items-center gap-4 md:gap-6">
+                <Link href={getLocalizedPath('/projelerimiz')} className="bg-primary text-on-primary px-8 md:px-10 text-label-technical uppercase flex items-center justify-center transition-colors hover:bg-white h-[50px] md:h-[60px]">
                     {t.explore}
                 </Link>
-                <Link href={getLocalizedPath('/hakkimizda')} className="group border border-primary text-primary px-10 text-label-technical uppercase flex items-center justify-center gap-2 transition-all hover:bg-primary hover:text-on-primary h-[60px]">
+                <Link href={getLocalizedPath('/hakkimizda')} className="group border border-primary text-primary px-8 md:px-10 text-label-technical uppercase flex items-center justify-center gap-2 transition-all hover:bg-primary hover:text-on-primary h-[50px] md:h-[60px]">
                     <span className="material-symbols-outlined text-xl">play_arrow</span>
                     <span>{t.process}</span>
                 </Link>
