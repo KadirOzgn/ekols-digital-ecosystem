@@ -7,7 +7,7 @@ export const ProjectSlider = ({ title, images }: { title: string, images: string
     const scrollRef = useRef<HTMLDivElement>(null);
     const [isHovered, setIsHovered] = useState(false);
     
-    const { onMouseDown, onMouseLeave, onMouseUp, onMouseMove, isDragging } = useDraggableScroll(scrollRef);
+    const { onMouseDown, isDragging } = useDraggableScroll(scrollRef);
 
     const handleScrollLeft = () => {
         if (scrollRef.current && scrollRef.current.children.length > 0) {
@@ -86,9 +86,6 @@ export const ProjectSlider = ({ title, images }: { title: string, images: string
                 <div 
                     ref={scrollRef}
                     onMouseDown={onMouseDown}
-                    onMouseLeave={onMouseLeave}
-                    onMouseUp={onMouseUp}
-                    onMouseMove={onMouseMove}
                     className={`flex overflow-x-auto gap-4 pb-4 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden w-full ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
                     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
                 >
@@ -102,7 +99,9 @@ export const ProjectSlider = ({ title, images }: { title: string, images: string
                                 src={image} 
                                 alt={`${title} - Görsel ${idx + 1}`} 
                                 loading="lazy"
-                                className="w-full h-full object-cover opacity-70 group-hover/card:opacity-100 transition-all duration-700 group-hover/card:scale-105"
+                                draggable="false"
+                                onDragStart={(e) => e.preventDefault()}
+                                className="w-full h-full object-cover opacity-70 group-hover/card:opacity-100 transition-all duration-700 group-hover/card:scale-105 select-none"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0d0e0f] via-transparent to-transparent opacity-50 group-hover/card:opacity-80 transition-opacity duration-500 pointer-events-none z-10"></div>
                             <div className="absolute top-4 right-4 opacity-0 group-hover/card:opacity-100 transition-opacity duration-500 z-30">

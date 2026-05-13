@@ -22,7 +22,7 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const [isHovered, setIsHovered] = useState(false);
-  const { onMouseDown, onMouseLeave, onMouseUp, onMouseMove, isDragging } = useDraggableScroll(scrollRef);
+  const { onMouseDown, isDragging } = useDraggableScroll(scrollRef);
 
   const scroll = (direction: 'left' | 'right') => {
     if (scrollRef.current && scrollRef.current.children.length > 0) {
@@ -87,10 +87,8 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
             <div 
                 ref={scrollRef}
                 onMouseDown={onMouseDown}
-                onMouseLeave={onMouseLeave}
-                onMouseUp={onMouseUp}
-                onMouseMove={onMouseMove}
                 onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
                 className={`flex overflow-x-auto gap-4 md:gap-8 pb-8 md:pb-12 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
@@ -100,7 +98,7 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
                         title: (t.items as any)?.[`p${idx + 1}Title`] || product.title,
                         category: (t.items as any)?.[`p${idx + 1}Cat`] || product.category
                     };
-                    return <ProductCard key={product.id} product={localizedProduct} t={t} />;
+                    return <ProductCard key={product.id} product={localizedProduct} t={t} isDragging={isDragging} />;
                 })}
             </div>
         </div>
@@ -114,7 +112,7 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
   );
 };
 
-const ProductCard = ({ product, t }: { product: any, t: any }) => {
+const ProductCard = ({ product, t, isDragging }: { product: any, t: any, isDragging: boolean }) => {
     const [imgError, setImgError] = useState(false);
 
     return (
@@ -139,7 +137,9 @@ const ProductCard = ({ product, t }: { product: any, t: any }) => {
                     <img 
                         src={product.src} 
                         alt={product.title} 
-                        className="w-full h-full object-contain opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-110 relative z-10 drop-shadow-2xl brightness-90 group-hover:brightness-110"
+                        draggable="false"
+                        onDragStart={(e) => e.preventDefault()}
+                        className="w-full h-full object-contain opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-110 relative z-10 drop-shadow-2xl brightness-90 group-hover:brightness-110 select-none"
                         onError={() => setImgError(true)}
                     />
                 ) : (
@@ -165,8 +165,8 @@ const ProductCard = ({ product, t }: { product: any, t: any }) => {
             </div>
             
             <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-x-2 group-hover:translate-x-0 z-30">
-                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#121414]/80 backdrop-blur-md border border-[#333535]/50 text-white hover:bg-primary hover:border-primary transition-colors">
-                    <span className="material-symbols-outlined !text-sm">arrow_forward</span>
+                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#121414]/80 backdrop-blur-md border border-[#333535]/50 text-primary hover:bg-primary hover:text-white hover:border-primary transition-colors">
+                    <span className="material-symbols-outlined !text-sm">zoom_in</span>
                 </span>
             </div>
         </div>

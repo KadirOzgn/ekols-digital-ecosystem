@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 
 export const useDraggableScroll = (ref: React.RefObject<HTMLDivElement | null>) => {
   const isDown = useRef(false);
@@ -6,56 +6,56 @@ export const useDraggableScroll = (ref: React.RefObject<HTMLDivElement | null>) 
   const scrollLeftInitial = useRef(0);
   const [isDragging, setIsDragging] = useState(false);
 
-  const onMouseDown = useCallback((e: React.MouseEvent) => {
+  const handleMouseDown = (e: React.MouseEvent) => {
     if (!ref.current) return;
     isDown.current = true;
     startX.current = e.pageX - ref.current.offsetLeft;
     scrollLeftInitial.current = ref.current.scrollLeft;
     
-    // Temporarily disable snap during drag for smoother experience
+    // Temporarily disable snap during drag
     ref.current.style.scrollSnapType = 'none';
     ref.current.style.scrollBehavior = 'auto';
-  }, [ref]);
+    ref.current.style.cursor = 'grabbing';
+  };
 
-  const onMouseLeave = useCallback(() => {
-    if (!isDown.current) return;
-    isDown.current = false;
-    setIsDragging(false);
-    if (ref.current) {
-      ref.current.style.scrollSnapType = 'x mandatory';
-      ref.current.style.scrollBehavior = 'smooth';
-    }
-  }, [ref]);
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!isDown.current || !ref.current) return;
+      
+      const x = e.pageX - ref.current.offsetLeft;
+      const walk = (x - startX.current) * 2;
+      
+      if (Math.abs(walk) > 5) {
+        setIsDragging(true);
+      }
+      
+      ref.current.scrollLeft = scrollLeftInitial.current - walk;
+    };
 
-  const onMouseUp = useCallback(() => {
-    if (!isDown.current) return;
-    isDown.current = false;
-    // Delay resetting isDragging to prevent immediate click actions
-    setTimeout(() => setIsDragging(false), 50);
-    if (ref.current) {
-      ref.current.style.scrollSnapType = 'x mandatory';
-      ref.current.style.scrollBehavior = 'smooth';
-    }
-  }, [ref]);
+    const handleMouseUp = () => {
+      if (!isDown.current) return;
+      isDown.current = false;
+      
+      setTimeout(() => setIsDragging(false), 50);
+      
+      if (ref.current) {
+        ref.current.style.scrollSnapType = 'x mandatory';
+        ref.current.style.scrollBehavior = 'smooth';
+        ref.current.style.cursor = 'grab';
+      }
+    };
 
-  const onMouseMove = useCallback((e: React.MouseEvent) => {
-    if (!isDown.current || !ref.current) return;
-    e.preventDefault();
-    const x = e.pageX - ref.current.offsetLeft;
-    const walk = (x - startX.current) * 2; // Scroll speed multiplier
-    
-    if (Math.abs(walk) > 5) {
-      setIsDragging(true);
-    }
-    
-    ref.current.scrollLeft = scrollLeftInitial.current - walk;
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mouseup', handleMouseUp);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
   }, [ref]);
 
   return {
-    onMouseDown,
-    onMouseLeave,
-    onMouseUp,
-    onMouseMove,
+    onMouseDown: handleMouseDown,
     isDragging
   };
 };

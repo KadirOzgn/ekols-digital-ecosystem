@@ -1589,5 +1589,4252 @@
       "width": 1475,
       "height": 785
     }
+  },
+  {
+    "type": "move",
+    "x": 1196,
+    "y": 786,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643197845,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1081,
+    "y": 658,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643198351,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "click",
+    "x": 799,
+    "y": 655,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643198456,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 998,
+    "y": 632,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643198852,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 865,
+    "y": 546,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643199452,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 735,
+    "y": 494,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643199996,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 736,
+    "y": 489,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643200554,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 732,
+    "y": 484,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643201094,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 566,
+    "y": 61,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643201601,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 551,
+    "y": 46,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643202277,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 250,
+    "y": 700,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643207520,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1043,
+    "y": 476,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643208813,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1043,
+    "y": 476,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643214636,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1043,
+    "y": 476,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643218304,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1043,
+    "y": 476,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643221827,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 76,
+    "y": 552,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643233577,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 914,
+    "y": 264,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643365786,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1005,
+    "y": 502,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643366286,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1332,
+    "y": 551,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643367415,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1283,
+    "y": 553,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643367457,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1296,
+    "y": 596,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643367939,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1322,
+    "y": 623,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643368639,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1090,
+    "y": 623,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643368650,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1361,
+    "y": 632,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643369777,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1089,
+    "y": 622,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643369787,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 556,
+    "y": 581,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643370277,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 585,
+    "y": 592,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643371117,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 407,
+    "y": 580,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643371141,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 630,
+    "y": 604,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643372212,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 472,
+    "y": 598,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643372215,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 655,
+    "y": 570,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643372729,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 580,
+    "y": 620,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643373502,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 363,
+    "y": 612,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643373513,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 224,
+    "y": 607,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643374458,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 345,
+    "y": 602,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643374469,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 205,
+    "y": 593,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643375617,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 572,
+    "y": 593,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643375627,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1083,
+    "y": 547,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643376127,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643376409,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 10,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643376426,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 20,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643376442,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1069,
+    "y": 974,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643376657,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 931,
+    "y": 572,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643377657,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1223,
+    "y": 233,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643466658,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1009,
+    "y": 3,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643469263,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 761,
+    "y": 451,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643469779,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 381,
+    "y": 577,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643470147,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 315,
+    "y": 578,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643470288,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 162,
+    "y": 575,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643470796,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 225,
+    "y": 607,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643471801,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 266,
+    "y": 594,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643471877,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 228,
+    "y": 618,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643472306,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 334,
+    "y": 632,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643473057,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 423,
+    "y": 633,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643473071,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 280,
+    "y": 608,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643473563,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 504,
+    "y": 583,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643474383,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 191,
+    "y": 578,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643474696,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 168,
+    "y": 573,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643474896,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 498,
+    "y": 575,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643475396,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 568,
+    "y": 576,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643475474,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 260,
+    "y": 580,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643476733,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 505,
+    "y": 580,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643476902,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 520,
+    "y": 580,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643477256,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 195,
+    "y": 576,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643477759,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 600,
+    "y": 585,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643479834,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 377,
+    "y": 589,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643480024,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 549,
+    "y": 586,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643480347,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 289,
+    "y": 579,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643480856,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1165,
+    "y": 581,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643481363,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1014,
+    "y": 580,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643481863,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 915,
+    "y": 568,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643482380,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 614,
+    "y": 104,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643483327,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 646,
+    "y": 48,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643483587,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 713,
+    "y": 122,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643483831,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 803,
+    "y": 435,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643484332,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 777,
+    "y": 539,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643484839,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1169,
+    "y": 546,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643485799,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 972,
+    "y": 539,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643485815,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1195,
+    "y": 549,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643486301,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 902,
+    "y": 544,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643486467,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1211,
+    "y": 541,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643486813,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 997,
+    "y": 541,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643487072,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 955,
+    "y": 524,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643487313,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1229,
+    "y": 545,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643488183,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1041,
+    "y": 541,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643488192,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 830,
+    "y": 542,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643488684,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 786,
+    "y": 540,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643488729,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 604,
+    "y": 542,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643489192,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 527,
+    "y": 541,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643489692,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 630,
+    "y": 536,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643490192,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 426,
+    "y": 529,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643491032,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 736,
+    "y": 532,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643491146,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 728,
+    "y": 480,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643491543,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 794,
+    "y": 175,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643492059,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1025,
+    "y": 375,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643536024,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1010,
+    "y": 375,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643536609,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1024,
+    "y": 234,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643538200,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1023,
+    "y": 278,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643538710,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1028,
+    "y": 361,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643539224,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 870,
+    "y": 580,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643539551,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 584,
+    "y": 577,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643539737,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 825,
+    "y": 566,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643540069,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 715,
+    "y": 559,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643540237,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 868,
+    "y": 554,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643540511,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1000,
+    "y": 548,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643540737,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 894,
+    "y": 549,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643540930,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1099,
+    "y": 549,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643541239,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 860,
+    "y": 544,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643541338,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 876,
+    "y": 544,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643541739,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 840,
+    "y": 543,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643541741,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 768,
+    "y": 9,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643542253,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 786,
+    "y": 40,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643542786,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 786,
+    "y": 40,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643542807,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 632,
+    "y": 516,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643543320,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 525,
+    "y": 519,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643543458,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 621,
+    "y": 516,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643543822,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 466,
+    "y": 512,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643543938,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1066,
+    "y": 521,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643544329,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 909,
+    "y": 517,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643544389,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1006,
+    "y": 499,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643544800,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 941,
+    "y": 498,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643544837,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1038,
+    "y": 495,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643545212,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1012,
+    "y": 489,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643545353,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 906,
+    "y": 487,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643545624,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1062,
+    "y": 394,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643545853,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643545986,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 9,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643546019,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 19,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643546036,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 30,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643546066,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1121,
+    "y": 1083,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643546355,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1065,
+    "y": 1148,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643546659,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1171,
+    "y": 1149,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643546870,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1159,
+    "y": 1152,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643547048,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1146,
+    "y": 1154,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643547371,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1087,
+    "y": 1153,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643547405,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1090,
+    "y": 1159,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643547775,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 784,
+    "y": 1153,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643547878,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 533,
+    "y": 1149,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643548191,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 669,
+    "y": 1161,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643548386,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 451,
+    "y": 1158,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643548580,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 642,
+    "y": 1170,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643548887,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 528,
+    "y": 1167,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643548979,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 420,
+    "y": 1163,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643549371,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 391,
+    "y": 1161,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643549388,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 50,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643549769,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 62,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643549786,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 781,
+    "y": 1872,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643549950,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 941,
+    "y": 1751,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643550449,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 924,
+    "y": 1751,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643550452,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1069,
+    "y": 1695,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643550823,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1011,
+    "y": 1692,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643550953,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1174,
+    "y": 1703,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643551198,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 867,
+    "y": 1704,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643551453,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1109,
+    "y": 1681,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643551708,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 936,
+    "y": 1691,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643551956,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1055,
+    "y": 1680,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643552098,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 973,
+    "y": 1689,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643552456,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1126,
+    "y": 1689,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643552516,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 662,
+    "y": 1676,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643552963,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 684,
+    "y": 1676,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643552965,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 538,
+    "y": 1678,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643553365,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 656,
+    "y": 1694,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643553472,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 539,
+    "y": 1690,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643553740,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 740,
+    "y": 1718,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643553987,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 64,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643554239,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 82,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643554264,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 93,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643554303,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 924,
+    "y": 2479,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643554488,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 978,
+    "y": 2288,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643554888,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 930,
+    "y": 2285,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643554996,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 939,
+    "y": 2292,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643555240,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 434,
+    "y": 2315,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643555512,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 330,
+    "y": 2296,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643555738,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 548,
+    "y": 2292,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643556012,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 433,
+    "y": 2297,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643556074,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 394,
+    "y": 2178,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643556526,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 397,
+    "y": 2173,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643556655,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr",
+    "timestamp": 1778643556717,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 419,
+    "y": 52,
+    "path": "/tr",
+    "timestamp": 1778643557042,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 11,
+    "path": "/tr",
+    "timestamp": 1778643557307,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 22,
+    "path": "/tr",
+    "timestamp": 1778643557323,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 30,
+    "path": "/tr",
+    "timestamp": 1778643557589,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 50,
+    "path": "/tr",
+    "timestamp": 1778643557606,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 493,
+    "y": 1436,
+    "path": "/tr",
+    "timestamp": 1778643557703,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 68,
+    "path": "/tr",
+    "timestamp": 1778643557873,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 85,
+    "path": "/tr",
+    "timestamp": 1778643558190,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 95,
+    "path": "/tr",
+    "timestamp": 1778643558224,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 493,
+    "y": 2584,
+    "path": "/tr",
+    "timestamp": 1778643558317,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 493,
+    "y": 2649,
+    "path": "/tr",
+    "timestamp": 1778643559009,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 80,
+    "path": "/tr",
+    "timestamp": 1778643559135,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 69,
+    "path": "/tr",
+    "timestamp": 1778643559169,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 51,
+    "path": "/tr",
+    "timestamp": 1778643559331,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 40,
+    "path": "/tr",
+    "timestamp": 1778643559348,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 587,
+    "y": 1142,
+    "path": "/tr",
+    "timestamp": 1778643559516,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 31,
+    "path": "/tr",
+    "timestamp": 1778643559531,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 22,
+    "path": "/tr",
+    "timestamp": 1778643559548,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 941,
+    "y": 569,
+    "path": "/tr",
+    "timestamp": 1778643560035,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 940,
+    "y": 569,
+    "path": "/tr",
+    "timestamp": 1778643560077,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 935,
+    "y": 574,
+    "path": "/tr",
+    "timestamp": 1778643560338,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643560533,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 935,
+    "y": 34,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643560631,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 887,
+    "y": 171,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643561141,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 22,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643561473,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 46,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643561490,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 100,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643561506,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 886,
+    "y": 1131,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643561658,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 77,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643562039,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 48,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643562056,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 16,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643562073,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 886,
+    "y": 331,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643562163,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643562273,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 720,
+    "y": 59,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643562673,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 751,
+    "y": 42,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643562846,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 884,
+    "y": 319,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643563174,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1018,
+    "y": 551,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643563529,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 910,
+    "y": 544,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643563674,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 981,
+    "y": 538,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643563918,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1156,
+    "y": 530,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643564175,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 883,
+    "y": 520,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643564353,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1259,
+    "y": 526,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643564691,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 869,
+    "y": 511,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643564854,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1181,
+    "y": 506,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643565193,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 851,
+    "y": 505,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643565276,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 376,
+    "y": 528,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643565674,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 323,
+    "y": 524,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643565707,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 452,
+    "y": 531,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643566009,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 472,
+    "y": 165,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643566208,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 688,
+    "y": 44,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643566657,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 688,
+    "y": 44,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643566720,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1053,
+    "y": 331,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643567232,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1139,
+    "y": 529,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643567668,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1026,
+    "y": 543,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643567733,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 869,
+    "y": 513,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643568087,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 715,
+    "y": 499,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643568249,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 993,
+    "y": 501,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643568514,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1252,
+    "y": 502,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643568749,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1031,
+    "y": 514,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643568892,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 972,
+    "y": 397,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643569251,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 853,
+    "y": 392,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643569753,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 854,
+    "y": 408,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643570266,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 742,
+    "y": 188,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643570767,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 772,
+    "y": 23,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643571184,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 770,
+    "y": 29,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643571267,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 770,
+    "y": 37,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643571456,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 436,
+    "y": 428,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643571767,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 453,
+    "y": 414,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643572268,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 500,
+    "y": 430,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643572782,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 500,
+    "y": 430,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643572924,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 521,
+    "y": 444,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643573283,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 706,
+    "y": 27,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643573784,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 666,
+    "y": 49,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643574023,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 671,
+    "y": 212,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643574299,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 655,
+    "y": 433,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643574799,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 683,
+    "y": 406,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643575299,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 668,
+    "y": 595,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643575826,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 908,
+    "y": 674,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643634009,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 974,
+    "y": 617,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643634517,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 905,
+    "y": 445,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643635031,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 784,
+    "y": 381,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643635531,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 189,
+    "y": 27,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643636032,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 189,
+    "y": 30,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643636112,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 466,
+    "y": 213,
+    "path": "/tr",
+    "timestamp": 1778643636532,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr",
+    "timestamp": 1778643636796,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 7,
+    "path": "/tr",
+    "timestamp": 1778643636863,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 466,
+    "y": 379,
+    "path": "/tr",
+    "timestamp": 1778643637047,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 15,
+    "path": "/tr",
+    "timestamp": 1778643637130,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 24,
+    "path": "/tr",
+    "timestamp": 1778643637147,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 34,
+    "path": "/tr",
+    "timestamp": 1778643637173,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 42,
+    "path": "/tr",
+    "timestamp": 1778643637529,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 50,
+    "path": "/tr",
+    "timestamp": 1778643637546,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 61,
+    "path": "/tr",
+    "timestamp": 1778643637564,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 514,
+    "y": 1745,
+    "path": "/tr",
+    "timestamp": 1778643637599,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 71,
+    "path": "/tr",
+    "timestamp": 1778643637647,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 58,
+    "path": "/tr",
+    "timestamp": 1778643637763,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 48,
+    "path": "/tr",
+    "timestamp": 1778643637779,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 23,
+    "path": "/tr",
+    "timestamp": 1778643637814,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 543,
+    "y": 686,
+    "path": "/tr",
+    "timestamp": 1778643638115,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 549,
+    "y": 639,
+    "path": "/tr",
+    "timestamp": 1778643638377,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643638568,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 583,
+    "y": 84,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643638616,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1078,
+    "y": 366,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643639130,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 18,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643639497,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 28,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643639513,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 37,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643639817,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 45,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643639837,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 881,
+    "y": 1524,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643639939,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 53,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643640146,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 62,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643640167,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 71,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643640187,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 78,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643640526,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 86,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643640549,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 881,
+    "y": 2598,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643640650,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 94,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643640868,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 100,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643641402,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 881,
+    "y": 2951,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643641503,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 91,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643642713,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 72,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643642729,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 61,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643642747,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 881,
+    "y": 1938,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643642847,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 38,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643642943,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 27,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643642959,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 15,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643643146,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 8,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643643284,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643643308,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 880,
+    "y": 338,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643643409,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 703,
+    "y": 267,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643643909,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 680,
+    "y": 36,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643644406,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 681,
+    "y": 36,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778643644426,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 797,
+    "y": 343,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643644938,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 983,
+    "y": 537,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643645267,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 730,
+    "y": 534,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643645452,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1035,
+    "y": 517,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643645715,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1030,
+    "y": 510,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643645952,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 965,
+    "y": 514,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643646145,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1076,
+    "y": 492,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643646452,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 814,
+    "y": 507,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643646576,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1047,
+    "y": 469,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643646952,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 865,
+    "y": 401,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643647463,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1188,
+    "y": 432,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643647968,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 982,
+    "y": 449,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643648264,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1127,
+    "y": 416,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643648469,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 855,
+    "y": 412,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643648972,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1158,
+    "y": 447,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643649472,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 781,
+    "y": 433,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643649595,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 893,
+    "y": 449,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643649974,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 893,
+    "y": 449,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643649982,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1040,
+    "y": 466,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643650359,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 819,
+    "y": 450,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643650480,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 877,
+    "y": 63,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643650983,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 813,
+    "y": 53,
+    "path": "/tr/urunlerimiz",
+    "timestamp": 1778643651368,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 815,
+    "y": 52,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643651520,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643651888,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 8,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643651929,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 30,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643651946,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 42,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643651980,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 868,
+    "y": 1325,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643652028,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 914,
+    "y": 1324,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643652390,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 996,
+    "y": 1328,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643652530,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 965,
+    "y": 1226,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643652922,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 875,
+    "y": 1225,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643653032,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1150,
+    "y": 1199,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643653283,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1297,
+    "y": 1210,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643653549,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1069,
+    "y": 1204,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643653666,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1105,
+    "y": 1019,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643654065,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 851,
+    "y": 969,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643654565,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 936,
+    "y": 1018,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643655077,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 935,
+    "y": 1018,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778643655243,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643655290,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1077,
+    "y": 233,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643655577,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1110,
+    "y": 185,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643656121,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 46,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643656293,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 73,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643656309,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 420,
+    "y": 806,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643656627,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 206,
+    "y": 762,
+    "path": "/tr/teklif-al",
+    "timestamp": 1778643656923,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr",
+    "timestamp": 1778643656986,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 228,
+    "y": 64,
+    "path": "/tr",
+    "timestamp": 1778643657143,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 9,
+    "path": "/tr",
+    "timestamp": 1778643657425,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 18,
+    "path": "/tr",
+    "timestamp": 1778643657443,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 29,
+    "path": "/tr",
+    "timestamp": 1778643657459,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 38,
+    "path": "/tr",
+    "timestamp": 1778643657709,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 58,
+    "path": "/tr",
+    "timestamp": 1778643657726,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1063,
+    "y": 1836,
+    "path": "/tr",
+    "timestamp": 1778643657826,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 67,
+    "path": "/tr",
+    "timestamp": 1778643657993,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 76,
+    "path": "/tr",
+    "timestamp": 1778643658009,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 85,
+    "path": "/tr",
+    "timestamp": 1778643658260,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 94,
+    "path": "/tr",
+    "timestamp": 1778643658275,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1063,
+    "y": 2747,
+    "path": "/tr",
+    "timestamp": 1778643658374,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 72,
+    "path": "/tr",
+    "timestamp": 1778643658409,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 63,
+    "path": "/tr",
+    "timestamp": 1778643658627,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 53,
+    "path": "/tr",
+    "timestamp": 1778643658642,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 43,
+    "path": "/tr",
+    "timestamp": 1778643658658,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 33,
+    "path": "/tr",
+    "timestamp": 1778643658809,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 22,
+    "path": "/tr",
+    "timestamp": 1778643658826,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 11,
+    "path": "/tr",
+    "timestamp": 1778643658843,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1064,
+    "y": 651,
+    "path": "/tr",
+    "timestamp": 1778643658914,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 29,
+    "path": "/tr",
+    "timestamp": 1778643659342,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1216,
+    "y": 1174,
+    "path": "/tr",
+    "timestamp": 1778643659427,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 38,
+    "path": "/tr",
+    "timestamp": 1778643659659,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 58,
+    "path": "/tr",
+    "timestamp": 1778643659675,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1221,
+    "y": 1915,
+    "path": "/tr",
+    "timestamp": 1778643659927,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 49,
+    "path": "/tr",
+    "timestamp": 1778643660194,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 40,
+    "path": "/tr",
+    "timestamp": 1778643660214,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 17,
+    "path": "/tr",
+    "timestamp": 1778643660226,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1215,
+    "y": 840,
+    "path": "/tr",
+    "timestamp": 1778643660427,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 25,
+    "path": "/tr",
+    "timestamp": 1778643660542,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1218,
+    "y": 1089,
+    "path": "/tr",
+    "timestamp": 1778643660951,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 35,
+    "path": "/tr",
+    "timestamp": 1778643661442,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1231,
+    "y": 1384,
+    "path": "/tr",
+    "timestamp": 1778643661461,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 956,
+    "y": 1413,
+    "path": "/tr",
+    "timestamp": 1778643661925,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 784,
+    "y": 1405,
+    "path": "/tr",
+    "timestamp": 1778643661979,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1118,
+    "y": 1422,
+    "path": "/tr",
+    "timestamp": 1778643662282,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1095,
+    "y": 1410,
+    "path": "/tr",
+    "timestamp": 1778643662482,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1044,
+    "y": 1412,
+    "path": "/tr",
+    "timestamp": 1778643662648,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 1045,
+    "y": 1406,
+    "path": "/tr",
+    "timestamp": 1778643662936,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 849,
+    "y": 1394,
+    "path": "/tr",
+    "timestamp": 1778643662994,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
   }
 ]
