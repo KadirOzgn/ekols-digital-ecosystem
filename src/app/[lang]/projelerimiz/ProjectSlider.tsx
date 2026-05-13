@@ -1,10 +1,13 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
+import { useDraggableScroll } from '@/lib/useDraggableScroll';
 
 export const ProjectSlider = ({ title, images }: { title: string, images: string[] }) => {
     const scrollRef = useRef<HTMLDivElement>(null);
     const [isHovered, setIsHovered] = useState(false);
+    
+    const { onMouseDown, onMouseLeave, onMouseUp, onMouseMove, isDragging } = useDraggableScroll(scrollRef);
 
     const handleScrollLeft = () => {
         if (scrollRef.current && scrollRef.current.children.length > 0) {
@@ -28,6 +31,8 @@ export const ProjectSlider = ({ title, images }: { title: string, images: string
             }
         }
     };
+
+
 
     useEffect(() => {
         if (isHovered || images.length <= 1) return; // Prevent auto-scroll if hovering or not enough images
@@ -80,13 +85,17 @@ export const ProjectSlider = ({ title, images }: { title: string, images: string
             <div className="relative group/slider" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                 <div 
                     ref={scrollRef}
-                    className="flex overflow-x-auto gap-4 pb-4 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden w-full"
+                    onMouseDown={onMouseDown}
+                    onMouseLeave={onMouseLeave}
+                    onMouseUp={onMouseUp}
+                    onMouseMove={onMouseMove}
+                    className={`flex overflow-x-auto gap-4 pb-4 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden w-full ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
                     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
                 >
                     {images.map((image, idx) => (
                         <div 
                             key={idx} 
-                            className="w-[85%] sm:w-[70%] md:w-[90%] lg:w-[85%] xl:w-[75%] aspect-[4/3] flex-shrink-0 snap-center relative group/card cursor-pointer overflow-hidden border border-[#222] bg-[#121414] rounded-md transition-transform duration-500 hover:border-[#444]"
+                            className={`w-[85%] sm:w-[70%] md:w-[90%] lg:w-[85%] xl:w-[75%] aspect-[4/3] flex-shrink-0 snap-center relative group/card border border-[#222] bg-[#121414] rounded-md transition-transform duration-500 hover:border-[#444] ${isDragging ? 'pointer-events-none' : 'cursor-pointer overflow-hidden'}`}
                         >
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img 

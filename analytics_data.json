@@ -1567,5 +1567,27 @@
       "width": 1475,
       "height": 785
     }
+  },
+  {
+    "type": "move",
+    "x": 1456,
+    "y": 2529,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642747560,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1430,
+    "y": 2401,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642748086,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
   }
 ]

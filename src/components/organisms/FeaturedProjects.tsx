@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { products } from '@/lib/data';
+import { useDraggableScroll } from '@/lib/useDraggableScroll';
 
 export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLang?: string }) => {
   const t = dict?.FeaturedProjects || {
@@ -21,6 +22,7 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const [isHovered, setIsHovered] = useState(false);
+  const { onMouseDown, onMouseLeave, onMouseUp, onMouseMove, isDragging } = useDraggableScroll(scrollRef);
 
   const scroll = (direction: 'left' | 'right') => {
     if (scrollRef.current && scrollRef.current.children.length > 0) {
@@ -84,9 +86,12 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
 
             <div 
                 ref={scrollRef}
+                onMouseDown={onMouseDown}
+                onMouseLeave={onMouseLeave}
+                onMouseUp={onMouseUp}
+                onMouseMove={onMouseMove}
                 onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
-                className="flex overflow-x-auto gap-4 md:gap-8 pb-8 md:pb-12 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden"
+                className={`flex overflow-x-auto gap-4 md:gap-8 pb-8 md:pb-12 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
                 {products.map((product, idx) => {
@@ -114,7 +119,7 @@ const ProductCard = ({ product, t }: { product: any, t: any }) => {
 
     return (
         <div 
-            className="min-w-[85vw] md:min-w-[280px] lg:min-w-[320px] aspect-[3/4] flex-shrink-0 snap-center relative group cursor-pointer overflow-hidden border border-[#333535]/50 rounded-sm bg-[#0a0b0c]"
+            className={`min-w-[85vw] md:min-w-[280px] lg:min-w-[320px] aspect-[3/4] flex-shrink-0 snap-center relative group rounded-sm bg-[#0a0b0c] ${isDragging ? 'pointer-events-none' : 'cursor-pointer overflow-hidden border border-[#333535]/50'}`}
         >
             {/* Animated Background Glow */}
             <div 
