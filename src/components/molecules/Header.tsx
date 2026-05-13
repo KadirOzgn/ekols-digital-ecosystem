@@ -87,27 +87,61 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
             <div className="relative pr-2 border-r border-[#333535]/50" ref={dropdownRef}>
                 <button 
                     onClick={() => setLangOpen(!langOpen)}
-                    className="flex items-center gap-1 text-xs md:text-sm font-medium text-zinc-300 hover:text-primary transition-colors focus:outline-none"
+                    className="flex items-center gap-2 text-xs md:text-sm font-medium text-zinc-300 hover:text-primary transition-colors focus:outline-none"
                 >
-                    {currentLang === 'tr' ? '🇹🇷 TR' : '🇬🇧 EN'}
+                    {currentLang === 'tr' ? (
+                        <div className="flex items-center gap-1.5">
+                            <svg width="18" height="12" viewBox="0 0 1200 800" className="rounded-[1px] shadow-sm">
+                                <rect width="1200" height="800" fill="#e30a17"/>
+                                <circle cx="425" cy="400" r="200" fill="#fff"/>
+                                <circle cx="475" cy="400" r="160" fill="#e30a17"/>
+                                <polygon points="583.3,400 711.9,441.8 632.4,332.5 632.4,467.5 711.9,358.2" fill="#fff"/>
+                            </svg>
+                            <span>TR</span>
+                        </div>
+                    ) : (
+                        <div className="flex items-center gap-1.5">
+                            <svg width="18" height="12" viewBox="0 0 60 30" className="rounded-[1px] shadow-sm">
+                                <path d="M0,0 v30 h60 v-30 z" fill="#012169"/>
+                                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6"/>
+                                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" strokeWidth="4"/>
+                                <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10"/>
+                                <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth="6"/>
+                            </svg>
+                            <span>EN</span>
+                        </div>
+                    )}
                     <span className="material-symbols-outlined !text-[16px] text-zinc-500">{langOpen ? 'expand_less' : 'expand_more'}</span>
                 </button>
                 
                 {langOpen && (
-                    <div className="absolute top-full right-0 mt-3 w-28 bg-[#121414]/95 backdrop-blur-md border border-[#333535] rounded-sm shadow-[0_4px_20px_rgba(0,0,0,0.5)] flex flex-col overflow-hidden">
+                    <div className="absolute top-full right-0 mt-3 w-32 bg-[#121414]/95 backdrop-blur-md border border-[#333535] rounded-sm shadow-[0_4px_20px_rgba(0,0,0,0.5)] flex flex-col overflow-hidden">
                         <Link 
                             href={pathname.replace(`/${currentLang}`, '/tr') || '/tr'} 
                             onClick={() => setLangOpen(false)}
-                            className={`px-4 py-2.5 text-xs transition-colors hover:bg-[#1a1c1c] flex items-center gap-2 ${currentLang === 'tr' ? 'text-primary' : 'text-zinc-400'}`}
+                            className={`px-4 py-2.5 text-xs transition-colors hover:bg-[#1a1c1c] flex items-center gap-2.5 ${currentLang === 'tr' ? 'text-primary' : 'text-zinc-400'}`}
                         >
-                            🇹🇷 Türkçe
+                            <svg width="16" height="11" viewBox="0 0 1200 800" className="rounded-[1px]">
+                                <rect width="1200" height="800" fill="#e30a17"/>
+                                <circle cx="425" cy="400" r="200" fill="#fff"/>
+                                <circle cx="475" cy="400" r="160" fill="#e30a17"/>
+                                <polygon points="583.3,400 711.9,441.8 632.4,332.5 632.4,467.5 711.9,358.2" fill="#fff"/>
+                            </svg>
+                            Türkçe
                         </Link>
                         <Link 
                             href={pathname.replace(`/${currentLang}`, '/en') || '/en'} 
                             onClick={() => setLangOpen(false)}
-                            className={`px-4 py-2.5 text-xs transition-colors hover:bg-[#1a1c1c] flex items-center gap-2 ${currentLang === 'en' ? 'text-primary' : 'text-zinc-400'}`}
+                            className={`px-4 py-2.5 text-xs transition-colors hover:bg-[#1a1c1c] flex items-center gap-2.5 ${currentLang === 'en' ? 'text-primary' : 'text-zinc-400'}`}
                         >
-                            🇬🇧 English
+                            <svg width="16" height="11" viewBox="0 0 60 30" className="rounded-[1px]">
+                                <path d="M0,0 v30 h60 v-30 z" fill="#012169"/>
+                                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6"/>
+                                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" strokeWidth="4"/>
+                                <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10"/>
+                                <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth="6"/>
+                            </svg>
+                            English
                         </Link>
                     </div>
                 )}

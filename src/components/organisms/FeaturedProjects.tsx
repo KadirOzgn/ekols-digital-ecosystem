@@ -2,19 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-
-const products = [
-  { id: 1, src: '/products/product-1.jpg', category: 'Seri 01 / Ahşap', title: 'GEOMETRİK AHŞAP SEHPA', accentColor: 'rgba(242, 202, 80, 0.4)' }, // Brand Primary Gold
-  { id: 2, src: '/products/product-2.jpg', category: 'Seri 01 / Ahşap', title: 'MASİF SEHPA', accentColor: 'rgba(201, 92, 71, 0.4)' }, // Terracotta / Burnt Sienna
-  { id: 3, src: '/products/product-3.jpg', category: 'Seri 02 / Seramik', title: 'MİNİMAL BEYAZ SEHPA', accentColor: 'rgba(76, 106, 101, 0.4)' }, // Muted Emerald/Teal
-  { id: 4, src: '/products/product-4.jpg', category: 'Seri 03 / Hibrit', title: 'KUARTZ & CAM SEHPA', accentColor: 'rgba(138, 109, 75, 0.4)' }, // Bronze / Brass
-  { id: 5, src: '/products/product-5.jpg', category: 'Seri 04 / Lake', title: 'MAVİ İKONİK SEHPA', accentColor: 'rgba(212, 138, 85, 0.4)' }, // Vibrant Copper
-  { id: 6, src: '/products/product-6.jpg', category: 'Seri 05 / Metal', title: 'SİYAH TASARIM MASA', accentColor: 'rgba(161, 61, 61, 0.4)' }, // Brick Red
-  { id: 7, src: '/products/product-7.jpg', category: 'Seri 01 / Ahşap', title: 'DALGALI YAN SEHPA', accentColor: 'rgba(81, 96, 117, 0.4)' }, // Slate Blue
-  { id: 8, src: '/products/product-8.jpg', category: 'Seri 03 / Hibrit', title: 'KİNETİK KONSOL', accentColor: 'rgba(158, 152, 88, 0.4)' }, // Olive Gold
-  { id: 9, src: '/products/product-9.jpg', category: 'Seri 02 / Doğal Taş', title: 'TRAVERTEN ORTA SEHPA', accentColor: 'rgba(194, 160, 119, 0.4)' }, // Travertine Sand
-  { id: 10, src: '/products/product-10.jpg', category: 'Seri 01 / Ahşap', title: 'MİNİMAL SİYAH SEHPA', accentColor: 'rgba(110, 72, 74, 0.4)' }, // Deep Rose / Mauve
-];
+import { products } from '@/lib/data';
 
 export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLang?: string }) => {
   const t = dict?.FeaturedProjects || {
@@ -34,6 +22,15 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
   const scrollRef = useRef<HTMLDivElement>(null);
   const [isHovered, setIsHovered] = useState(false);
 
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollRef.current && scrollRef.current.children.length > 0) {
+      const firstChild = scrollRef.current.children[0] as HTMLElement;
+      const cardWidth = firstChild.clientWidth + 32; 
+      const scrollAmount = direction === 'left' ? -cardWidth : cardWidth;
+      scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  };
+
   useEffect(() => {
       if (isHovered) return; // Kullanıcı üstüne geldiğinde kaymayı durdur
 
@@ -52,7 +49,7 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
                   scrollRef.current.scrollBy({ left: cardWidth, behavior: 'smooth' });
               }
           }
-      }, 3000); // 3 saniyede bir yumuşak kayma
+      }, 5000); // interval slightly increased to give user time with manual buttons
 
       return () => clearInterval(interval);
   }, [isHovered]);
@@ -66,27 +63,41 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
                 </div>
                 <h2 className="text-headline-lg text-white uppercase">{t.title}</h2>
             </div>
-            <Link href={getLocalizedPath('/urunlerimiz')} className="text-label-technical text-zinc-400 hover:text-primary uppercase hidden md:flex items-center gap-sm transition-colors border border-transparent hover:border-primary px-4 py-2">
-                {t.scrollAll} <span className="material-symbols-outlined !text-sm">arrow_forward</span>
-            </Link>
         </div>
 
-        {/* Kaydırmalı Carousel Alanı */}
-        <div 
-            ref={scrollRef}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-            className="flex overflow-x-auto gap-4 md:gap-8 pb-8 md:pb-12 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden pr-margin"
-            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
-        >
-            {products.map((product, idx) => {
-                const localizedProduct = {
-                    ...product,
-                    title: (t.items as any)?.[`p${idx + 1}Title`] || product.title,
-                    category: (t.items as any)?.[`p${idx + 1}Cat`] || product.category
-                };
-                return <ProductCard key={product.id} product={localizedProduct} t={t} />;
-            })}
+        <div className="relative group/carousel pr-margin">
+            {/* Manual Navigation Buttons - Positioned on sides of the images */}
+            <button 
+                onClick={() => scroll('left')}
+                className="absolute left-4 top-1/2 -translate-y-1/2 z-40 w-12 h-12 flex items-center justify-center bg-[#0d0e0f]/60 backdrop-blur-md border border-[#333535] text-white hover:text-primary hover:border-primary transition-all duration-300 rounded-full opacity-0 group-hover/carousel:opacity-100 hidden md:flex"
+                aria-label="Previous product"
+            >
+                <span className="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button 
+                onClick={() => scroll('right')}
+                className="absolute right-12 top-1/2 -translate-y-1/2 z-40 w-12 h-12 flex items-center justify-center bg-[#0d0e0f]/60 backdrop-blur-md border border-[#333535] text-white hover:text-primary hover:border-primary transition-all duration-300 rounded-full opacity-0 group-hover/carousel:opacity-100 hidden md:flex"
+                aria-label="Next product"
+            >
+                <span className="material-symbols-outlined">chevron_right</span>
+            </button>
+
+            <div 
+                ref={scrollRef}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+                className="flex overflow-x-auto gap-4 md:gap-8 pb-8 md:pb-12 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden"
+                style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+            >
+                {products.map((product, idx) => {
+                    const localizedProduct = {
+                        ...product,
+                        title: (t.items as any)?.[`p${idx + 1}Title`] || product.title,
+                        category: (t.items as any)?.[`p${idx + 1}Cat`] || product.category
+                    };
+                    return <ProductCard key={product.id} product={localizedProduct} t={t} />;
+                })}
+            </div>
         </div>
         
         <div className="md:hidden pr-margin mt-4 flex justify-end">

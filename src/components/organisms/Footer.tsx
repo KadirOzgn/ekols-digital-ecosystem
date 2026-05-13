@@ -46,6 +46,7 @@ export const Footer = ({ dict, currentLang }: { dict?: any, currentLang?: string
                 <h4 className="text-label-technical text-white uppercase">{t.officeTitle}</h4>
                 <p className="text-body-md text-zinc-500">Defne, Hatay</p>
                 <p className="text-body-md text-zinc-500">+90 212 000 00 00</p>
+                <a href="mailto:info@ekols.com.tr" className="text-body-md text-zinc-500 hover:text-primary transition-colors">info@ekols.com.tr</a>
             </div>
             
             <div className="flex flex-col gap-6">

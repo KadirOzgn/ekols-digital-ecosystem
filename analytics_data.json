@@ -1,0 +1,1571 @@
+[
+  {
+    "type": "move",
+    "x": 1289,
+    "y": 287,
+    "path": "/tr",
+    "timestamp": 1778642569546,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 881,
+    "y": 364,
+    "path": "/tr",
+    "timestamp": 1778642570046,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr",
+    "timestamp": 1778642570228,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 7,
+    "path": "/tr",
+    "timestamp": 1778642570461,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 13,
+    "path": "/tr",
+    "timestamp": 1778642570511,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 858,
+    "y": 688,
+    "path": "/tr",
+    "timestamp": 1778642570571,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 19,
+    "path": "/tr",
+    "timestamp": 1778642570977,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 27,
+    "path": "/tr",
+    "timestamp": 1778642571011,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 857,
+    "y": 1021,
+    "path": "/tr",
+    "timestamp": 1778642571097,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 33,
+    "path": "/tr",
+    "timestamp": 1778642571466,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 40,
+    "path": "/tr",
+    "timestamp": 1778642571499,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 48,
+    "path": "/tr",
+    "timestamp": 1778642571544,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 856,
+    "y": 1559,
+    "path": "/tr",
+    "timestamp": 1778642571638,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 56,
+    "path": "/tr",
+    "timestamp": 1778642572032,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 65,
+    "path": "/tr",
+    "timestamp": 1778642572044,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 74,
+    "path": "/tr",
+    "timestamp": 1778642572132,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 787,
+    "y": 2189,
+    "path": "/tr",
+    "timestamp": 1778642572145,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 725,
+    "y": 1926,
+    "path": "/tr",
+    "timestamp": 1778642572688,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 802,
+    "y": 1907,
+    "path": "/tr",
+    "timestamp": 1778642573198,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 552,
+    "y": 1906,
+    "path": "/tr",
+    "timestamp": 1778642573758,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 674,
+    "y": 1904,
+    "path": "/tr",
+    "timestamp": 1778642574487,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 644,
+    "y": 1905,
+    "path": "/tr",
+    "timestamp": 1778642575100,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "click",
+    "x": 774,
+    "y": 1904,
+    "path": "/tr",
+    "timestamp": 1778642575424,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 764,
+    "y": 83,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642575627,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642575633,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 680,
+    "y": 455,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642576226,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 7,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642576428,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 660,
+    "y": 605,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642576728,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 651,
+    "y": 562,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642577230,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 654,
+    "y": 560,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642577738,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 654,
+    "y": 560,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642578805,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 654,
+    "y": 560,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642581006,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 656,
+    "y": 558,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642581542,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1114,
+    "y": 580,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642582049,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1398,
+    "y": 567,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642582549,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1397,
+    "y": 565,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642583081,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1397,
+    "y": 565,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642584120,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 15,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642584721,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 24,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642584737,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 33,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642584804,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1325,
+    "y": 1227,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642584938,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1311,
+    "y": 1242,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642585524,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 710,
+    "y": 1103,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642586038,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 666,
+    "y": 1074,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642586664,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 666,
+    "y": 1074,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642587303,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1135,
+    "y": 1112,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642587811,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1348,
+    "y": 1064,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642588312,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1398,
+    "y": 1068,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642589029,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1398,
+    "y": 1068,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642589612,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1398,
+    "y": 1068,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642590375,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1352,
+    "y": 1137,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642590876,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 34,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642591028,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 42,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642591079,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 51,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642591095,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1324,
+    "y": 1593,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642591379,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 620,
+    "y": 1616,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642591879,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 664,
+    "y": 1593,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642592417,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 663,
+    "y": 1592,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642593254,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 665,
+    "y": 1592,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642593857,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 834,
+    "y": 1595,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642594382,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1352,
+    "y": 1567,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642594883,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1378,
+    "y": 1577,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642595387,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1382,
+    "y": 1576,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642596082,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1382,
+    "y": 1576,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642596650,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1382,
+    "y": 1576,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642597542,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1382,
+    "y": 1576,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642598147,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1375,
+    "y": 1578,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642598660,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 52,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642598945,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 60,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642598978,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 70,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642599012,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 81,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642599044,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1293,
+    "y": 2299,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642599333,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1397,
+    "y": 2119,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642599846,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1391,
+    "y": 2103,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642600346,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1388,
+    "y": 2105,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642600861,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1265,
+    "y": 1900,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642601367,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 899,
+    "y": 1850,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642601881,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1326,
+    "y": 394,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642609863,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1201,
+    "y": 362,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642610374,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1042,
+    "y": 286,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642611459,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642612093,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1040,
+    "y": 317,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642612195,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 9,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642612640,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1037,
+    "y": 507,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642612739,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 19,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642613242,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1035,
+    "y": 756,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642613342,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 26,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642613375,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1028,
+    "y": 940,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642613892,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 910,
+    "y": 951,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642614407,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 789,
+    "y": 1005,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642614908,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 35,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642615073,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 44,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642615090,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 781,
+    "y": 1431,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642615632,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 812,
+    "y": 1277,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642616140,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 803,
+    "y": 1365,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642616695,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 38,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642616773,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 28,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642616806,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 19,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642617060,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 9,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642617073,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642617095,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 801,
+    "y": 261,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642617433,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 408,
+    "y": 390,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642618008,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 210,
+    "y": 399,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642618524,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 206,
+    "y": 402,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642619813,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 571,
+    "y": 442,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642620323,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 939,
+    "y": 469,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642620833,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642621144,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 11,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642621192,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 21,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642621222,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 902,
+    "y": 1027,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642621421,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 846,
+    "y": 1059,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642621923,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 12,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642622364,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 2,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642622388,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 884,
+    "y": 529,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642622489,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 883,
+    "y": 484,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642624015,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 266,
+    "y": 305,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642624531,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 641,
+    "y": 278,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642625032,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 877,
+    "y": 285,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642625546,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 12,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626018,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 21,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626131,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 953,
+    "y": 840,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626232,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 29,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626496,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 38,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626510,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 49,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626528,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 61,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626544,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 70,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626851,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 79,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626874,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 90,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626881,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 100,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642626925,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 953,
+    "y": 2761,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642627026,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 91,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642627410,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 71,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642627427,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 59,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642627444,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 953,
+    "y": 1758,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642627541,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 51,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642628714,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 43,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642628744,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 953,
+    "y": 1384,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642628845,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 35,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642629345,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 25,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642629401,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 953,
+    "y": 928,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642629502,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 16,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642629783,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 6,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642629800,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 0,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642630176,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 953,
+    "y": 331,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642630277,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 953,
+    "y": 331,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642633998,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1191,
+    "y": 78,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778642634503,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1184,
+    "y": 1850,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642635664,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1109,
+    "y": 1912,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778642636178,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  }
+]

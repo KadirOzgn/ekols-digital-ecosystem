@@ -4,6 +4,7 @@ import "../globals.css";
 import { Header } from "@/components/molecules/Header";
 import { Footer } from "@/components/organisms/Footer";
 import { getDictionary } from "@/dictionaries";
+import { UserTracker } from "@/components/analytics/UserTracker";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-sans",
@@ -40,6 +41,7 @@ export default async function RootLayout({
       </head>
       <body className="font-body selection:bg-primary selection:text-on-primary tech-bg min-h-full flex flex-col">
         <Header dict={dict} currentLang={lang} />
+        <UserTracker />
         <main className="flex-1 flex flex-col">
           {children}
         </main>

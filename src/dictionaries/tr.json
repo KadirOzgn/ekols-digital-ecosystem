@@ -18,12 +18,12 @@
     "scroll": "SCROLL"
   },
   "TechnicalStats": {
-    "stat1Value": "120+",
-    "stat1Label": "Yıllık Deneyim",
+    "stat1Label": "Tamamlanan Proje",
     "stat2Value": "45K",
     "stat2Label": "M2 İnşaat Alanı",
     "stat3Value": "0.2",
-    "stat3Label": "Hata Payı (mm)"
+    "stat3Label": "Hata Payı (mm)",
+    "stat4Label": "Ürün Sayısı"
   },
   "FeaturedProjects": {
     "badge": "Ekols Koleksiyonu",
@@ -83,8 +83,7 @@
       "Hatay: Kisecik Salon Mutfak Projesi": "Hatay: Kisecik Salon & Mutfak Projesi",
       "Irak : Erbil spor salonu projesi": "Irak: Erbil Spor Salonu Projesi",
       "KKTC Konut Cephe tasarımı projesi": "KKTC: Konut Cephe Tasarımı Projesi",
-      "Mardin Kızıltepe Ofis Projesi ": "Mardin: Kızıltepe Ofis Projesi",
-      "Mardin:Kızıltepe Ofis projesi ": "Mardin: Kızıltepe Ofis Projesi (V2)"
+      "Mardin Kızıltepe Ofis Projesi ": "Mardin: Kızıltepe Ofis Projesi"
     },
     "noProjects": "Proje klasörleri bulunamadı."
   },
