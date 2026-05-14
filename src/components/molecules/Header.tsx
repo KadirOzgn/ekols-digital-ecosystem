@@ -50,8 +50,8 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
               e.currentTarget.nextElementSibling!.removeAttribute('style');
             }}/>
             <div style={{display: 'none'}} className="text-white font-display text-xl tracking-widest font-bold">EKOLS<span className="text-primary">.</span></div>
-            <div className="hidden sm:block h-6 md:h-8 w-[1px] bg-[#333535]/50 md:bg-gradient-to-b md:from-transparent md:via-[#333535] md:to-transparent"></div>
-            <div className="hidden md:flex flex-col justify-center leading-[1.4] md:leading-tight">
+            <div className="h-6 md:h-8 w-[1px] bg-[#333535]/50 md:bg-gradient-to-b md:from-transparent md:via-[#333535] md:to-transparent"></div>
+            <div className="flex flex-col justify-center leading-[1.4] md:leading-tight">
                 <span className="text-[7px] md:text-[9px] lg:text-[10px] text-primary/80 uppercase tracking-[0.12em] md:tracking-[0.18em] font-light">{(dict?.Header?.archEng || "ENGINEERING & ARCHITECTURE").split('&')[0].trim()} &</span>
                 <span className="text-[7px] md:text-[9px] lg:text-[10px] text-primary/80 uppercase tracking-[0.12em] md:tracking-[0.18em] font-light">{(dict?.Header?.archEng || "ENGINEERING & ARCHITECTURE").split('&')[1]?.trim()}</span>
             </div>
