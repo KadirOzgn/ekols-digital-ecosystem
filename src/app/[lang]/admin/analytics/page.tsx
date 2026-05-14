@@ -62,10 +62,28 @@ export default function AnalyticsDashboard() {
             <p className="text-3xl font-bold">{paths.length}</p>
           </div>
           <div className="bg-[#1a1c1c] p-6 border border-white/10 rounded-lg">
-            <p className="text-white/50 text-sm mb-1">Ort. Kaydırma</p>
+            <p className="text-white/50 text-sm mb-1">Farklı Lokasyonlar</p>
             <p className="text-3xl font-bold">
-              {Math.round(data.filter(d => d.type === 'scroll').reduce((acc, curr) => acc + (curr.scrollDepth || 0), 0) / (data.filter(d => d.type === 'scroll').length || 1))}%
+              {Array.from(new Set(data.map(d => d.location ? `${d.location.city}, ${d.location.country}` : 'Local'))).length}
             </p>
+          </div>
+        </div>
+
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold mb-6">Lokasyon Bazlı Dağılım</h2>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            {Object.entries(
+              data.reduce((acc: {[key: string]: number}, curr) => {
+                const loc = curr.location ? `${curr.location.city}, ${curr.location.country}` : 'Yerel / Bilinmiyor';
+                acc[loc] = (acc[loc] || 0) + 1;
+                return acc;
+              }, {})
+            ).sort((a, b) => b[1] - a[1]).map(([loc, count]) => (
+              <div key={loc} className="bg-[#1a1c1c] p-4 border border-white/5 rounded">
+                <p className="text-xs text-white/50 uppercase mb-1">{loc}</p>
+                <p className="text-xl font-bold">{count} <span className="text-xs text-white/30 font-normal">etkinlik</span></p>
+              </div>
+            ))}
           </div>
         </div>
 
