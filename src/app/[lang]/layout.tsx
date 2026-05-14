@@ -12,8 +12,30 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Ekols | Digital Design Ecosystem",
-  description: "Tasarımın 'Neden'ini mühendislikle sorguluyoruz.",
+  title: {
+    default: "Ekols | Digital Design Ecosystem",
+    template: "%s | Ekols"
+  },
+  description: "Ekols, tasarımın 'Neden'ini mühendislikle sorgulayan, mimari ve dijital tasarımın kesişim noktasında yenilikçi çözümler sunan bir ekosistemdir.",
+  keywords: ["ekols", "digital design", "engineering", "architecture", "mühendislik", "mimarlık", "tasarım"],
+  authors: [{ name: "Ekols Team" }],
+  openGraph: {
+    title: "Ekols | Digital Design Ecosystem",
+    description: "Tasarımın 'Neden'ini mühendislikle sorguluyoruz.",
+    url: "https://ekols.com.tr",
+    siteName: "Ekols",
+    locale: "tr_TR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ekols | Digital Design Ecosystem",
+    description: "Tasarımın 'Neden'ini mühendislikle sorguluyoruz.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  }
 };
 
 export async function generateStaticParams() {
