@@ -98,7 +98,7 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
                         title: (t.items as any)?.[`p${idx + 1}Title`] || product.title,
                         category: (t.items as any)?.[`p${idx + 1}Cat`] || product.category
                     };
-                    return <ProductCard key={product.id} product={localizedProduct} t={t} isDragging={isDragging} />;
+                    return <ProductCard key={product.id} product={localizedProduct} t={t} isDragging={isDragging} currentLang={currentLang} />;
                 })}
             </div>
         </div>
@@ -112,7 +112,7 @@ export const FeaturedProjects = ({ dict, currentLang }: { dict?: any, currentLan
   );
 };
 
-const ProductCard = ({ product, t, isDragging }: { product: any, t: any, isDragging: boolean }) => {
+const ProductCard = ({ product, t, isDragging, currentLang }: { product: any, t: any, isDragging: boolean, currentLang?: string }) => {
     const [imgError, setImgError] = useState(false);
 
     return (
