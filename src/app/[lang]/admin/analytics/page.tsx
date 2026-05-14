@@ -11,7 +11,10 @@ interface AnalyticsEvent {
   timestamp: number;
   location?: {
     country: string;
+    region: string;
     city: string;
+    latitude: string;
+    longitude: string;
   };
 }
 
@@ -74,13 +77,13 @@ export default function AnalyticsDashboard() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {Object.entries(
               data.reduce((acc: {[key: string]: number}, curr) => {
-                const loc = curr.location ? `${curr.location.city}, ${curr.location.country}` : 'Yerel / Bilinmiyor';
+                const loc = curr.location ? `${curr.location.city}, ${curr.location.region}, ${curr.location.country}` : 'Yerel / Bilinmiyor';
                 acc[loc] = (acc[loc] || 0) + 1;
                 return acc;
               }, {})
             ).sort((a, b) => b[1] - a[1]).map(([loc, count]) => (
               <div key={loc} className="bg-[#1a1c1c] p-4 border border-white/5 rounded">
-                <p className="text-xs text-white/50 uppercase mb-1">{loc}</p>
+                <p className="text-[10px] text-white/50 uppercase mb-1 truncate" title={loc}>{loc}</p>
                 <p className="text-xl font-bold">{count} <span className="text-xs text-white/30 font-normal">etkinlik</span></p>
               </div>
             ))}
@@ -170,7 +173,12 @@ export default function AnalyticsDashboard() {
                       {d.type === 'scroll' ? `%${d.scrollDepth}` : `${Math.round(d.x || 0)}, ${Math.round(d.y || 0)}`}
                     </td>
                     <td className="p-4 text-xs text-white/50">
-                      {d.location ? `${d.location.city}, ${d.location.country}` : 'Yerel / Bilinmiyor'}
+                      {d.location ? (
+                        <div className="flex flex-col">
+                          <span>{d.location.city}, {d.location.region}, {d.location.country}</span>
+                          <span className="text-[10px] text-white/20">{d.location.latitude}, {d.location.longitude}</span>
+                        </div>
+                      ) : 'Yerel / Bilinmiyor'}
                     </td>
                   </tr>
                 ))}
