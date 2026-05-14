@@ -91,7 +91,7 @@ export default function TeklifAlPage() {
             </div>
 
             {/* Ambient Arkaplan Efektleri */}
-            <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] max-w-[800px] max-h-[800px] bg-[#ff6e00]/10 rounded-full blur-[120px] pointer-events-none transition-opacity duration-2000 z-0 ${mounted ? 'opacity-100' : 'opacity-0'}`}></div>
+            <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] max-w-[800px] max-h-[800px] bg-[#f2ca50]/10 rounded-full blur-[120px] pointer-events-none transition-opacity duration-2000 z-0 ${mounted ? 'opacity-100' : 'opacity-0'}`}></div>
             <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-[#333535]/30 -translate-x-1/2 pointer-events-none hidden md:block z-0"></div>
 
             <div className={`relative z-10 w-full max-w-4xl px-8 md:px-16 transition-all duration-1000 delay-100 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
@@ -99,7 +99,7 @@ export default function TeklifAlPage() {
                 <div className="mb-12 text-center flex flex-col items-center">
                     {/* Animasyonlu Logo */}
                     <div className="mb-8 relative group">
-                        <div className="absolute inset-0 bg-[#ff6e00]/20 blur-xl rounded-full scale-50 group-hover:scale-100 transition-transform duration-700"></div>
+                        <div className="absolute inset-0 bg-[#f2ca50]/20 blur-xl rounded-full scale-50 group-hover:scale-100 transition-transform duration-700"></div>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img 
                             src="/logo.png" 
@@ -110,9 +110,9 @@ export default function TeklifAlPage() {
                     </div>
 
                     <div className="inline-flex items-center gap-4 mb-4">
-                        <div className="h-[1px] w-12 bg-[#ff6e00]"></div>
-                        <span className="text-label-technical text-[#ff6e00] uppercase tracking-widest">{isEn ? "Let's Build Together" : "Birlikte İnşa Edelim"}</span>
-                        <div className="h-[1px] w-12 bg-[#ff6e00]"></div>
+                        <div className="h-[1px] w-12 bg-[#f2ca50]"></div>
+                        <span className="text-label-technical text-[#f2ca50] uppercase tracking-widest">{isEn ? "Let's Build Together" : "Birlikte İnşa Edelim"}</span>
+                        <div className="h-[1px] w-12 bg-[#f2ca50]"></div>
                     </div>
                     
                     <h1 className="text-display-md text-white uppercase mb-4 drop-shadow-md">{isEn ? "Get a Quote" : "Proje Teklifi Al"}</h1>
@@ -127,27 +127,27 @@ export default function TeklifAlPage() {
                     onSubmit={handleSubmit}
                 >
                     {/* Hover durumunda genişleyen şık üst çizgi */}
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[2px] w-12 bg-[#ff6e00] group-hover:w-full transition-all duration-1000 ease-in-out"></div>
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[2px] w-12 bg-[#f2ca50] group-hover:w-full transition-all duration-1000 ease-in-out"></div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
                         <div className="space-y-2">
                             <label className="text-label-technical text-zinc-400 uppercase">{isEn ? "Full Name" : "Ad Soyad"}</label>
-                            <input name="fullName" value={formData.fullName} onChange={handleChange} type="text" required className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#ff6e00] focus:outline-none text-white px-6 py-4 transition-colors disabled:opacity-50" placeholder={isEn ? "John Doe" : "İsim Soyisim"} disabled={isSubmitting} />
+                            <input name="fullName" value={formData.fullName} onChange={handleChange} type="text" required className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#f2ca50] focus:outline-none text-white px-6 py-4 transition-colors disabled:opacity-50" placeholder={isEn ? "John Doe" : "İsim Soyisim"} disabled={isSubmitting} />
                         </div>
                         <div className="space-y-2">
                             <label className="text-label-technical text-zinc-400 uppercase">{isEn ? "Email" : "E-Posta"}</label>
-                            <input name="email" value={formData.email} onChange={handleChange} type="email" required className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#ff6e00] focus:outline-none text-white px-6 py-4 transition-colors disabled:opacity-50" placeholder={isEn ? "example@company.com" : "ornek@sirket.com"} disabled={isSubmitting} />
+                            <input name="email" value={formData.email} onChange={handleChange} type="email" required className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#f2ca50] focus:outline-none text-white px-6 py-4 transition-colors disabled:opacity-50" placeholder={isEn ? "example@company.com" : "ornek@sirket.com"} disabled={isSubmitting} />
                         </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
                         <div className="space-y-2">
                             <label className="text-label-technical text-zinc-400 uppercase">{isEn ? "Phone" : "Telefon"}</label>
-                            <input name="phone" value={formData.phone} onChange={handleChange} type="tel" className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#ff6e00] focus:outline-none text-white px-6 py-4 transition-colors disabled:opacity-50" placeholder="+90 5XX XXX XX XX" disabled={isSubmitting} />
+                            <input name="phone" value={formData.phone} onChange={handleChange} type="tel" className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#f2ca50] focus:outline-none text-white px-6 py-4 transition-colors disabled:opacity-50" placeholder="+90 5XX XXX XX XX" disabled={isSubmitting} />
                         </div>
                         <div className="space-y-2">
                             <label className="text-label-technical text-zinc-400 uppercase">{isEn ? "Category" : "İlgili Alan"}</label>
-                            <select name="category" value={formData.category} onChange={handleChange} className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#ff6e00] focus:outline-none text-white px-6 py-4 transition-colors appearance-none cursor-pointer disabled:opacity-50" disabled={isSubmitting}>
+                            <select name="category" value={formData.category} onChange={handleChange} className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#f2ca50] focus:outline-none text-white px-6 py-4 transition-colors appearance-none cursor-pointer disabled:opacity-50" disabled={isSubmitting}>
                                 <option value={isEn ? "Architectural Design" : "Mimari Tasarım"}>{isEn ? "Architectural Design" : "Mimari Tasarım"}</option>
                                 <option value={isEn ? "Interior Design" : "İç Mimari"}>{isEn ? "Interior Design" : "İç Mimari"}</option>
                                 <option value={isEn ? "Collection Products" : "Koleksiyon Ürünleri"}>{isEn ? "Collection Products" : "Koleksiyon Ürünleri"}</option>
@@ -159,7 +159,7 @@ export default function TeklifAlPage() {
 
                     <div className="space-y-2 relative z-10">
                         <label className="text-label-technical text-zinc-400 uppercase">{isEn ? "Project / Product Details" : "Proje / Ürün Detayları"}</label>
-                        <textarea name="details" value={formData.details} onChange={handleChange} required rows={6} className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#ff6e00] focus:outline-none text-white px-6 py-4 transition-colors resize-none disabled:opacity-50" placeholder={isEn ? "Please detail your vision or the product you need..." : "Lütfen vizyonunuzu veya ihtiyaç duyduğunuz ürünü detaylandırın..."} disabled={isSubmitting}></textarea>
+                        <textarea name="details" value={formData.details} onChange={handleChange} required rows={6} className="w-full bg-[#0d0e0f]/80 border border-[#333535] focus:border-[#f2ca50] focus:outline-none text-white px-6 py-4 transition-colors resize-none disabled:opacity-50" placeholder={isEn ? "Please detail your vision or the product you need..." : "Lütfen vizyonunuzu veya ihtiyaç duyduğunuz ürünü detaylandırın..."} disabled={isSubmitting}></textarea>
                     </div>
 
                     {status.message && (
@@ -169,7 +169,7 @@ export default function TeklifAlPage() {
                     )}
 
                     <div className="pt-6 flex gap-6 items-center relative z-10">
-                        <button type="submit" disabled={isSubmitting} className="flex-1 bg-[#ff6e00] text-[#0d0e0f] font-bold uppercase tracking-widest py-5 hover:bg-white hover:shadow-[0_0_20px_rgba(255,110,0,0.4)] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed">
+                        <button type="submit" disabled={isSubmitting} className="flex-1 bg-[#f2ca50] text-[#0d0e0f] font-bold uppercase tracking-widest py-5 hover:bg-white hover:shadow-[0_0_20px_rgba(242,202,80,0.4)] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed">
                             {isSubmitting ? (isEn ? 'SUBMITTING...' : 'GÖNDERİLİYOR...') : (isEn ? 'SUBMIT' : 'GÖNDER')}
                         </button>
                         <Link href={isEn ? "/en" : "/tr"} className="px-8 py-5 border border-[#333535] text-zinc-400 hover:text-white hover:border-zinc-500 uppercase text-label-technical transition-colors text-center disabled:pointer-events-none">

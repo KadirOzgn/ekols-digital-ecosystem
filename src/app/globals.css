@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #ff6e00;
+  --color-primary: #f2ca50;
   --color-on-primary: #3c2f00;
-  --color-primary-container: #cc5800;
+  --color-primary-container: #d4af37;
   --color-on-primary-container: #554300;
   --color-surface: #121414;
   --color-surface-dim: #121414;
@@ -61,7 +61,7 @@ body {
 }
 
 .primary-glow {
-    box-shadow: 0 0 40px rgba(255, 110, 0, 0.15);
+    box-shadow: 0 0 40px rgba(242, 202, 80, 0.15);
 }
 
 .bento-grid { 
@@ -97,7 +97,7 @@ body {
 .scanline {
     width: 100%;
     height: 1px;
-    background: linear-gradient(to right, transparent, rgba(255, 110, 0, 0.4), transparent);
+    background: linear-gradient(to right, transparent, rgba(242, 202, 80, 0.4), transparent);
     position: absolute;
     animation: scan 6s linear infinite;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .section-stem {
-    border-left: 4px solid #ff6e00;
+    border-left: 4px solid #f2ca50;
     padding-left: 20px;
 }
 
