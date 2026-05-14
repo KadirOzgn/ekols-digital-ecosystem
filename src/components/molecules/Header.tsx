@@ -43,22 +43,22 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 w-full z-[110] flex justify-between items-center gap-8 px-6 md:px-12 lg:px-20 py-3 md:py-4 transition-all duration-300 ${mobileMenuOpen ? 'bg-transparent border-transparent' : 'bg-[#0d0e0f]/70 backdrop-blur-xl border-b border-[#333535]/50 shadow-sm'}`}>
+      <nav className={`fixed top-0 left-0 w-full z-[110] flex justify-between items-center gap-4 md:gap-8 px-4 md:px-12 lg:px-20 py-3 md:py-4 transition-all duration-300 ${mobileMenuOpen ? 'bg-transparent border-transparent' : 'bg-[#0d0e0f]/70 backdrop-blur-xl border-b border-[#333535]/50 shadow-sm'}`}>
         <Link href={`/${currentLang}`} className="flex items-center gap-3 md:gap-6 hover:opacity-80 transition-opacity flex-shrink-0">
             <img src="/logo-yellow.png" alt="Ekols Logo" className="h-12 md:h-14 w-auto object-contain rounded-sm" onError={(e) => {
               e.currentTarget.style.display = 'none';
               e.currentTarget.nextElementSibling!.removeAttribute('style');
             }}/>
             <div style={{display: 'none'}} className="text-white font-display text-xl tracking-widest font-bold">EKOLS<span className="text-primary">.</span></div>
-            <div className="h-6 md:h-8 w-[1px] bg-[#333535]/50 md:bg-gradient-to-b md:from-transparent md:via-[#333535] md:to-transparent"></div>
-            <div className="flex flex-col justify-center leading-[1.4] md:leading-tight">
+            <div className="hidden sm:block h-6 md:h-8 w-[1px] bg-[#333535]/50 md:bg-gradient-to-b md:from-transparent md:via-[#333535] md:to-transparent"></div>
+            <div className="hidden md:flex flex-col justify-center leading-[1.4] md:leading-tight">
                 <span className="text-[7px] md:text-[9px] lg:text-[10px] text-primary/80 uppercase tracking-[0.12em] md:tracking-[0.18em] font-light">{(dict?.Header?.archEng || "ENGINEERING & ARCHITECTURE").split('&')[0].trim()} &</span>
                 <span className="text-[7px] md:text-[9px] lg:text-[10px] text-primary/80 uppercase tracking-[0.12em] md:tracking-[0.18em] font-light">{(dict?.Header?.archEng || "ENGINEERING & ARCHITECTURE").split('&')[1]?.trim()}</span>
             </div>
         </Link>
         
         {/* Mesafe azaltıldı: gap-8 lg:gap-12 -> gap-5 lg:gap-8 */}
-        <div className="hidden md:flex gap-4 lg:gap-8 items-center h-full pt-1 flex-shrink-0">
+        <div className="hidden lg:flex gap-4 lg:gap-8 items-center h-full pt-1 flex-shrink-0">
             <Link href={getLocalizedPath('/')} className={getLinkClass('/')}>{dict?.Header?.home || "Ana Sayfa"}</Link>
             <Link href={getLocalizedPath('/hakkimizda')} className={getLinkClass('/hakkimizda')}>{dict?.Header?.about || "Hakkımızda"}</Link>
             <Link href={getLocalizedPath('/urunlerimiz')} className={getLinkClass('/urunlerimiz')}>{dict?.Header?.products || "Ürünlerimiz"}</Link>
@@ -66,7 +66,7 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
             <Link href={getLocalizedPath('/teklif-al')} className={getLinkClass('/teklif-al')}>{dict?.Header?.contact || "İletişim"}</Link>
         </div>
         
-        <div className="flex items-center gap-4 md:gap-6 flex-shrink-0">
+        <div className="flex items-center gap-2 md:gap-6 flex-shrink-0">
             {/* İkonlar daha küçük (w-[14px] h-[14px]) ve hafif yukarıda (mb-1) */}
             <div className="hidden lg:flex items-center gap-4 pr-6 border-r border-[#333535]/50 mb-1">
                 <a className="text-zinc-500 hover:text-primary hover:scale-110 transition-all duration-300" href="https://www.linkedin.com/in/ekolsdesing/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -149,14 +149,14 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
 
             <Link 
                 href={getLocalizedPath('/teklif-al')}
-                className="bg-primary text-on-primary px-6 md:px-8 py-2 md:py-2.5 text-[10px] md:text-xs font-bold uppercase transition-all duration-300 hover:bg-white hover:text-[#0d0e0f] hover:shadow-[0_0_15px_rgba(242,202,80,0.5)] rounded-sm"
+                className="hidden sm:inline-flex bg-primary text-on-primary px-4 md:px-8 py-2 md:py-2.5 text-[10px] md:text-xs font-bold uppercase transition-all duration-300 hover:bg-white hover:text-[#0d0e0f] hover:shadow-[0_0_15px_rgba(242,202,80,0.5)] rounded-sm"
             >
                 {dict?.Header?.getQuote || "Teklif Al"}
             </Link>
 
             {/* Mobile Menu Button */}
             <button 
-                className="md:hidden flex flex-col items-center justify-center gap-[6px] w-8 h-8 z-[110]"
+                className="lg:hidden flex flex-col items-center justify-center gap-[6px] w-8 h-8 z-[110] flex-shrink-0"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 aria-label="Toggle menu"
             >
@@ -169,7 +169,7 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
       </nav>
 
       {/* Fullscreen Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#0d0e0f]/40 backdrop-blur-sm z-[105] flex flex-col items-center justify-center gap-8 transition-all duration-500 md:hidden pt-20 ${mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`fixed inset-0 bg-[#0d0e0f]/40 backdrop-blur-sm z-[105] flex flex-col items-center justify-center gap-8 transition-all duration-500 lg:hidden pt-20 ${mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
           <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/')} className="text-headline-md text-white hover:text-primary transition-colors">{dict?.Header?.home || "Ana Sayfa"}</Link>
           <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/hakkimizda')} className="text-headline-md text-white hover:text-primary transition-colors">{dict?.Header?.about || "Hakkımızda"}</Link>
           <Link onClick={() => setMobileMenuOpen(false)} href={getLocalizedPath('/urunlerimiz')} className="text-headline-md text-white hover:text-primary transition-colors">{dict?.Header?.products || "Ürünlerimiz"}</Link>
