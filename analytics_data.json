@@ -17837,5 +17837,621 @@
       "latitude": "0",
       "longitude": "0"
     }
+  },
+  {
+    "type": "move",
+    "x": 1070,
+    "y": 487,
+    "path": "/tr",
+    "timestamp": 1778777697998,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 482,
+    "y": 98,
+    "path": "/tr",
+    "timestamp": 1778777698597,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 323,
+    "y": 7,
+    "path": "/tr",
+    "timestamp": 1778777751829,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 485,
+    "y": 74,
+    "path": "/tr",
+    "timestamp": 1778777756087,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 3,
+    "path": "/tr",
+    "timestamp": 1778777756488,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 20,
+    "path": "/tr",
+    "timestamp": 1778777756521,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 36,
+    "path": "/tr",
+    "timestamp": 1778777756557,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 48,
+    "path": "/tr",
+    "timestamp": 1778777756589,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 59,
+    "path": "/tr",
+    "timestamp": 1778777756621,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 67,
+    "path": "/tr",
+    "timestamp": 1778777756654,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 59,
+    "path": "/tr",
+    "timestamp": 1778777757353,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 53,
+    "path": "/tr",
+    "timestamp": 1778777757388,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 44,
+    "path": "/tr",
+    "timestamp": 1778777757457,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 691,
+    "y": 1556,
+    "path": "/tr",
+    "timestamp": 1778777757699,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 626,
+    "y": 1454,
+    "path": "/tr",
+    "timestamp": 1778777758221,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 908,
+    "y": 1461,
+    "path": "/tr",
+    "timestamp": 1778777758887,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 938,
+    "y": 1407,
+    "path": "/tr",
+    "timestamp": 1778777759586,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "click",
+    "x": 442,
+    "y": 1437,
+    "path": "/tr",
+    "timestamp": 1778777759775,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 588,
+    "y": 1431,
+    "path": "/tr",
+    "timestamp": 1778777760087,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "click",
+    "x": 381,
+    "y": 1486,
+    "path": "/tr",
+    "timestamp": 1778777760450,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 381,
+    "y": 1486,
+    "path": "/tr",
+    "timestamp": 1778777761233,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 36,
+    "path": "/tr",
+    "timestamp": 1778777761321,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 25,
+    "path": "/tr",
+    "timestamp": 1778777761391,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 18,
+    "path": "/tr",
+    "timestamp": 1778777761421,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 11,
+    "path": "/tr",
+    "timestamp": 1778777761455,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "scroll",
+    "scrollDepth": 4,
+    "path": "/tr",
+    "timestamp": 1778777761487,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 470,
+    "y": 307,
+    "path": "/tr",
+    "timestamp": 1778777761766,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 447,
+    "y": 21,
+    "path": "/tr",
+    "timestamp": 1778777762387,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "click",
+    "x": 464,
+    "y": 42,
+    "path": "/tr",
+    "timestamp": 1778777762659,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 402,
+    "y": 4,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778777762918,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 240,
+    "y": 5,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778777763454,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 183,
+    "y": 4,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778777764167,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 361,
+    "y": 194,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778777764995,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 873,
+    "y": 585,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778777766606,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 633,
+    "y": 258,
+    "path": "/tr/hakkimizda",
+    "timestamp": 1778777779143,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
   }
 ]

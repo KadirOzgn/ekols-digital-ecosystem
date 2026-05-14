@@ -12,6 +12,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ekols.com.tr'),
   title: {
     default: "Ekols | Digital Design Ecosystem",
     template: "%s | Ekols"
@@ -62,6 +63,22 @@ export default async function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
       </head>
       <body className="font-body selection:bg-primary selection:text-on-primary tech-bg min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "url": "https://ekols.com.tr",
+              "logo": "https://ekols.com.tr/logo-yellow.png",
+              "name": "Ekols",
+              "sameAs": [
+                "https://www.linkedin.com/in/ekolsdesing/",
+                "https://www.instagram.com/ekols_design/"
+              ]
+            })
+          }}
+        />
         <Header dict={dict} currentLang={lang} />
         <UserTracker />
         <main className="flex-1 flex flex-col">
