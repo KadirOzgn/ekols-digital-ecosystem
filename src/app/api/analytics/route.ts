@@ -8,9 +8,23 @@ const DATA_FILE = path.join(process.cwd(), 'analytics_data.json');
 export async function POST(request: Request) {
   try {
     const newEvents = await request.json();
+    const headers = request.headers;
+    
+    // Capture location from Vercel headers
+    const location = {
+      country: headers.get('x-vercel-ip-country') || 'Unknown',
+      region: headers.get('x-vercel-ip-country-region') || 'Unknown',
+      city: headers.get('x-vercel-ip-city') || 'Unknown',
+      latitude: headers.get('x-vercel-ip-latitude') || '0',
+      longitude: headers.get('x-vercel-ip-longitude') || '0'
+    };
 
-    // In a real app, you'd use a database like Postgres or Redis
-    // For this prototype, we'll append to a local file if in dev mode
+    const eventsWithLocation = newEvents.map((e: any) => ({
+      ...e,
+      location
+    }));
+
+    // For local development, we can store in a JSON file
     if (process.env.NODE_ENV === 'development') {
       let existingData = [];
       if (fs.existsSync(DATA_FILE)) {
@@ -18,11 +32,11 @@ export async function POST(request: Request) {
         existingData = JSON.parse(fileContent || '[]');
       }
       
-      const updatedData = [...existingData, ...newEvents];
+      const updatedData = [...existingData, ...eventsWithLocation];
       fs.writeFileSync(DATA_FILE, JSON.stringify(updatedData, null, 2));
     } else {
-      // In production, just log it for now
-      console.log('Analytics Events Received:', newEvents.length);
+      // In production, log it for now
+      console.log(`Analytics Events Received from ${location.city}, ${location.country}:`, eventsWithLocation.length);
     }
 
     return NextResponse.json({ success: true });

@@ -9,6 +9,10 @@ interface AnalyticsEvent {
   scrollDepth?: number;
   path: string;
   timestamp: number;
+  location?: {
+    country: string;
+    city: string;
+  };
 }
 
 export default function AnalyticsDashboard() {
@@ -122,6 +126,7 @@ export default function AnalyticsDashboard() {
                   <th className="p-4">Tip</th>
                   <th className="p-4">Sayfa</th>
                   <th className="p-4">Detay</th>
+                  <th className="p-4">Konum</th>
                 </tr>
               </thead>
               <tbody>
@@ -132,6 +137,9 @@ export default function AnalyticsDashboard() {
                     <td className="p-4 text-sm text-white/70">{d.path}</td>
                     <td className="p-4 text-sm">
                       {d.type === 'scroll' ? `%${d.scrollDepth}` : `${Math.round(d.x || 0)}, ${Math.round(d.y || 0)}`}
+                    </td>
+                    <td className="p-4 text-xs text-white/50">
+                      {d.location ? `${d.location.city}, ${d.location.country}` : 'Yerel / Bilinmiyor'}
                     </td>
                   </tr>
                 ))}
