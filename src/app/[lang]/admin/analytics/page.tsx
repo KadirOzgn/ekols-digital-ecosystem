@@ -83,7 +83,7 @@ export default function AnalyticsDashboard() {
 
         <div className="bg-[#1a1c1c] border border-white/10 rounded-lg overflow-hidden">
           <div className="p-6 border-b border-white/10 flex justify-between items-center">
-            <h2 className="text-xl font-semibold">Isı Haritası Simülasyonu</h2>
+            <h2 className="text-xl font-semibold">Isı Haritası (Sayfa Üzerinde)</h2>
             <div className="flex gap-4 text-sm">
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 rounded-full bg-yellow-400"></span> Tıklama
@@ -94,24 +94,37 @@ export default function AnalyticsDashboard() {
             </div>
           </div>
           
-          <div className="relative w-full aspect-video bg-[#0d0e0f] overflow-auto border-4 border-dashed border-white/5 m-4 rounded">
-             {/* Simple visualization of points */}
-             {clicks.map((c, i) => (
-               <div 
-                 key={`click-${i}`}
-                 className="absolute w-4 h-4 bg-yellow-400/60 rounded-full blur-[2px] pointer-events-none"
-                 style={{ left: `${(c.x! / 2000) * 100}%`, top: `${(c.y! / 2000) * 100}%`, transform: 'translate(-50%, -50%)' }}
+          <div className="relative w-full h-[600px] bg-[#0d0e0f] overflow-hidden border-4 border-dashed border-white/5 m-4 rounded">
+             {/* Background Page Visualization */}
+             {filterPath && (
+               <iframe 
+                src={filterPath} 
+                className="absolute inset-0 w-[2000px] h-[2000px] origin-top-left pointer-events-none opacity-40 grayscale"
+                style={{ transform: 'scale(0.6)' }} // Adjusted for a reasonable view
                />
-             ))}
-             {moves.map((m, i) => (
-               <div 
-                 key={`move-${i}`}
-                 className="absolute w-2 h-2 bg-white/5 rounded-full pointer-events-none"
-                 style={{ left: `${(m.x! / 2000) * 100}%`, top: `${(m.y! / 2000) * 100}%`, transform: 'translate(-50%, -50%)' }}
-               />
-             ))}
-             <div className="flex items-center justify-center h-full text-white/20 uppercase tracking-widest font-bold">
-               Tuval Alanı (Gerçek ölçek için sayfayı ziyaret edin)
+             )}
+             {!filterPath && (
+               <div className="absolute inset-0 flex items-center justify-center text-white/20 uppercase tracking-widest font-bold text-center p-20">
+                 Lütfen Isı Haritasını Görmek İçin Yukarıdan Bir Sayfa Seçin
+               </div>
+             )}
+
+             {/* Heatmap Overlay */}
+             <div className="absolute inset-0 w-[2000px] h-[2000px] origin-top-left" style={{ transform: 'scale(0.6)' }}>
+               {clicks.map((c, i) => (
+                 <div 
+                   key={`click-${i}`}
+                   className="absolute w-6 h-6 bg-yellow-400/80 rounded-full blur-[4px] pointer-events-none z-10 shadow-[0_0_15px_rgba(250,204,21,0.5)]"
+                   style={{ left: `${c.x}px`, top: `${c.y}px`, transform: 'translate(-50%, -50%)' }}
+                 />
+               ))}
+               {moves.map((m, i) => (
+                 <div 
+                   key={`move-${i}`}
+                   className="absolute w-2 h-2 bg-white/10 rounded-full pointer-events-none"
+                   style={{ left: `${m.x}px`, top: `${m.y}px`, transform: 'translate(-50%, -50%)' }}
+                 />
+               ))}
              </div>
           </div>
         </div>
