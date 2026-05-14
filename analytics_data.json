@@ -5836,5 +5836,115 @@
       "width": 1475,
       "height": 785
     }
+  },
+  {
+    "type": "move",
+    "x": 1471,
+    "y": 2,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778643697755,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1490,
+    "y": 558,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778643698941,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 869,
+    "y": 286,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778643700530,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1374,
+    "y": 784,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778643701663,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1123,
+    "y": 630,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778643710722,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1439,
+    "y": 286,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778643726102,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 1392,
+    "y": 314,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778643727246,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 275,
+    "y": 1634,
+    "path": "/tr",
+    "timestamp": 1778643741390,
+    "screenSize": {
+      "width": 1475,
+      "height": 785
+    }
+  },
+  {
+    "type": "move",
+    "x": 1469,
+    "y": 772,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778644226936,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
+  },
+  {
+    "type": "move",
+    "x": 915,
+    "y": 78,
+    "path": "/tr/admin/analytics",
+    "timestamp": 1778644227624,
+    "screenSize": {
+      "width": 1512,
+      "height": 789
+    }
   }
 ]
