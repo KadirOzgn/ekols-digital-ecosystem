@@ -5,22 +5,22 @@ export default async function Hakkimizda({ params }: { params: Promise<{ lang: s
   const isEn = lang === 'en';
   
   return (
-    <div className="min-h-screen bg-[#0d0e0f] pt-[88px] md:pt-[112px] pb-16 tech-bg relative z-10">
-        <div className="px-8 md:px-margin py-16 md:py-[80px] relative">
+    <div className="min-h-screen bg-[#0d0e0f] pt-[88px] md:pt-[112px] pb-16 tech-bg relative z-10 overflow-hidden">
+        <div className="px-4 md:px-margin py-12 md:py-[80px] relative">
             <div className="max-w-5xl mx-auto">
-                <div className="section-stem mb-6">
-                    <span className="text-label-technical text-primary uppercase">{isEn ? "About Us" : "Hakkımızda"}</span>
+                <div className="section-stem mb-6 md:mx-0 mx-auto w-fit">
+                    <span className="text-label-technical text-primary uppercase text-center">{isEn ? "About Us" : "Hakkımızda"}</span>
                 </div>
-                <h2 className="text-headline-lg text-white uppercase mb-4">
+                <h2 className="text-headline-lg text-white uppercase mb-4 text-center md:text-left">
                     {isEn ? "Why Do We " : "Neden "}<span className="text-primary">{isEn ? "Exist?" : "Varız?"}</span>
                 </h2>
-                <p className="text-body-lg text-zinc-400 mb-16 max-w-4xl border-l border-[#333535] pl-6">
+                <p className="text-body-lg text-zinc-400 mb-16 max-w-4xl border-l-0 md:border-l border-[#333535] pl-0 md:pl-6 text-center md:text-left mx-auto md:mx-0">
                     {isEn ? 'We believe that living spaces gain value not just with objects, but with "system design". While most furniture is produced just to take up space, at Ekols, we question why each piece exists with engineering precision and architectural spirit. Our goal is not just to make better furniture, but to build a new standard of living where design is in perfect harmony with technical discipline, and aesthetics with function.' : 'Yaşam alanlarının sadece eşyalarla değil, birer "sistem tasarımı" ile değer kazandığına inanıyoruz. Çoğu mobilya sadece yer kaplamak için üretilirken, biz Ekols olarak her bir parçanın neden var olduğunu mühendislik hassasiyeti ve mimari ruhla sorguluyoruz. Amacımız, sadece daha iyi mobilyalar yapmak değil; tasarımın teknik disiplinle, estetiğin ise fonksiyonla kusursuz bir uyum içinde olduğu yeni bir yaşam standardı inşa etmektir.'}
                 </p>
 
                 <div className="mb-24">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-                        <div className="relative z-10">
+                        <div className="relative z-10 text-center md:text-left">
                             {/* Yazının arkasında duran iç içe 3 üçgen grafiği */}
                             <svg viewBox="0 0 200 200" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] md:w-[150%] md:h-[150%] opacity-10 pointer-events-none text-primary drop-shadow-[0_0_20px_rgba(255,110,0,0.3)] rotate-12 -z-10" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                                 <polygon points="100,50 135,110 65,110" />
@@ -30,15 +30,15 @@ export default async function Hakkimizda({ params }: { params: Promise<{ lang: s
                             <h3 className="text-headline-md text-white mb-6 uppercase relative">{isEn ? "The Three Corners of Innovation" : "İnovasyonun Üç Köşesi"}</h3>
                             <p className="text-body-lg text-zinc-400 mb-8">{isEn ? "Instead of copying what exists, we are a design ecosystem formed by an engineer and two architects who came together to create what does not yet exist." : "Biz, mevcut olanı kopyalamak yerine, henüz var olmayanı yaratmak için bir araya gelmiş bir mühendis ve iki mimardan oluşan bir tasarım ekosistemiyiz."}</p>
                             <ul className="flex flex-col gap-8">
-                                <li className="flex gap-4 items-start">
-                                    <span className="material-symbols-outlined text-primary !text-3xl">memory</span>
+                                <li className="flex flex-col md:flex-row gap-4 items-center md:items-start text-center md:text-left">
+                                    <span className="material-symbols-outlined text-primary !text-4xl md:!text-3xl">memory</span>
                                     <div>
                                         <strong className="text-white block mb-1 text-lg">{isEn ? "Engineering Precision" : "Mühendislik Hassasiyeti"}</strong>
                                         <span className="text-zinc-400">{isEn ? "The engineering vision that constructs the operational intelligence, global reach networks, and system architecture behind our designs." : "Tasarımlarımızın ardındaki operasyonel zekayı, küresel erişim ağlarını ve sistem mimarisini kurgulayan mühendislik vizyonu."}</span>
                                     </div>
                                 </li>
-                                <li className="flex gap-4 items-start">
-                                    <span className="material-symbols-outlined text-primary !text-3xl">architecture</span>
+                                <li className="flex flex-col md:flex-row gap-4 items-center md:items-start text-center md:text-left">
+                                    <span className="material-symbols-outlined text-primary !text-4xl md:!text-3xl">architecture</span>
                                     <div>
                                         <strong className="text-white block mb-1 text-lg">{isEn ? "Architectural Aesthetics" : "Mimari Estetik"}</strong>
                                         <span className="text-zinc-400">{isEn ? "Constructs a sophisticated architectural language and spatial experience that goes beyond function, blending forms that add character to the space with the purest forms of premium materials." : "Mekana karakter katan formları, premium materyallerin en saf halleriyle harmanlayarak, fonksiyonun ötesine geçen sofistike bir mimari dil ve mekansal deneyim kurgular."}</span>
@@ -58,13 +58,13 @@ export default async function Hakkimizda({ params }: { params: Promise<{ lang: s
                 </div>
 
                 <div className="mb-24 pt-16 border-t border-[#333535]">
-                    <div className="section-stem mb-6">
+                    <div className="section-stem mb-6 md:mx-0 mx-auto w-fit">
                         <span className="text-label-technical text-primary uppercase">{isEn ? "Our Process" : "Sürecimiz"}</span>
                     </div>
-                    <h3 className="text-headline-lg text-white uppercase mb-4">
+                    <h3 className="text-headline-lg text-white uppercase mb-4 text-center md:text-left">
                         {isEn ? "Digital Discipline of " : "Fiziksel Formun "}<span className="text-primary">{isEn ? "Physical Form" : "Dijital Disiplini"}</span>
                     </h3>
-                    <p className="text-body-lg text-zinc-400 mb-12 max-w-3xl border-l border-[#333535] pl-6">
+                    <p className="text-body-lg text-zinc-400 mb-12 max-w-3xl border-l-0 md:border-l border-[#333535] pl-0 md:pl-6 text-center md:text-left mx-auto md:mx-0">
                         {isEn ? "At Ekols, the process begins with a vertical innovation approach. Instead of following current market standards, we produce our own design technology." : "Ekols’te süreç, dikey bir inovasyon anlayışıyla başlar. Mevcut pazar standartlarını takip etmek yerine, kendi tasarım teknolojimizi üretiyoruz."}
                     </p>
 
@@ -113,7 +113,7 @@ export default async function Hakkimizda({ params }: { params: Promise<{ lang: s
                 </div>
 
                 <div className="pt-16 border-t border-[#333535]">
-                    <div className="p-16 border border-primary/30 bg-[#121414] relative glass text-center group hover:border-primary transition-colors">
+                    <div className="p-8 md:p-16 border border-primary/30 bg-[#121414] relative glass text-center group hover:border-primary transition-colors">
                         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#0d0e0f] px-4 group-hover:text-white transition-colors text-primary">
                             <span className="material-symbols-outlined text-4xl">travel_explore</span>
                         </div>
