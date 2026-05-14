@@ -24,7 +24,7 @@ export const Footer = ({ dict, currentLang }: { dict?: any, currentLang?: string
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-12 xl:gap-8 mb-24">
             <div className="xl:col-span-2 flex flex-col xl:flex-row items-start xl:items-center gap-6 xl:gap-8">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/logo.png" alt="Ekols Logo" className="h-16 md:h-20 w-auto object-contain object-left rounded-sm shrink-0" onError={(e) => {
+                <img src="/logo-yellow.png" alt="Ekols Logo" className="h-16 md:h-20 w-auto object-contain object-left rounded-sm shrink-0" onError={(e) => {
                   e.currentTarget.style.display = 'none';
                   e.currentTarget.nextElementSibling!.removeAttribute('style');
                 }}/>

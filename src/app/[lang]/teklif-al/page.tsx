@@ -102,7 +102,7 @@ export default function TeklifAlPage() {
                         <div className="absolute inset-0 bg-[#f2ca50]/20 blur-xl rounded-full scale-50 group-hover:scale-100 transition-transform duration-700"></div>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img 
-                            src="/logo.png" 
+                            src="/logo-yellow.png" 
                             alt="Ekols" 
                             className="h-16 w-auto object-contain relative z-10 hover:scale-105 transition-transform duration-500" 
                             onError={(e) => { e.currentTarget.style.display = 'none'; }}

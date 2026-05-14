@@ -17145,5 +17145,95 @@
       "latitude": "0",
       "longitude": "0"
     }
+  },
+  {
+    "type": "move",
+    "x": 1095,
+    "y": 592,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778777022377,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 635,
+    "y": 244,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778777023150,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 753,
+    "y": 234,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778777023802,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 669,
+    "y": 3,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778777024442,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
+  },
+  {
+    "type": "move",
+    "x": 875,
+    "y": 41,
+    "path": "/tr/projelerimiz",
+    "timestamp": 1778777025099,
+    "screenSize": {
+      "width": 1113,
+      "height": 713
+    },
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "city": "Unknown",
+      "latitude": "0",
+      "longitude": "0"
+    }
   }
 ]

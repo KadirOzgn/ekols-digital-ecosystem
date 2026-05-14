@@ -45,7 +45,7 @@ export const Header = ({ dict, currentLang }: { dict: any, currentLang: string }
     <>
       <nav className={`fixed top-0 left-0 w-full z-[110] flex justify-between items-center gap-8 px-6 md:px-12 lg:px-20 py-3 md:py-4 transition-all duration-300 ${mobileMenuOpen ? 'bg-transparent border-transparent' : 'bg-[#0d0e0f]/70 backdrop-blur-xl border-b border-[#333535]/50 shadow-sm'}`}>
         <Link href={`/${currentLang}`} className="flex items-center gap-3 md:gap-6 hover:opacity-80 transition-opacity flex-shrink-0">
-            <img src="/logo.png" alt="Ekols Logo" className="h-12 md:h-14 w-auto object-contain rounded-sm" onError={(e) => {
+            <img src="/logo-yellow.png" alt="Ekols Logo" className="h-12 md:h-14 w-auto object-contain rounded-sm" onError={(e) => {
               e.currentTarget.style.display = 'none';
               e.currentTarget.nextElementSibling!.removeAttribute('style');
             }}/>
