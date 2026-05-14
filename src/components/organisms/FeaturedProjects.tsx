@@ -155,14 +155,7 @@ const ProductCard = ({ product, t, isDragging, currentLang }: { product: any, t:
             <div className="absolute inset-0 bg-gradient-to-t from-[#0d0e0f] via-[#0d0e0f]/40 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-20" />
             
             <div className="absolute bottom-8 left-8 right-8 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700 ease-out z-30">
-                <div className="flex gap-4 mb-3 opacity-0 group-hover:opacity-100 transition-all duration-500 delay-100 translate-y-2 group-hover:translate-y-0">
-                    <span className="text-[10px] tracking-widest text-primary uppercase font-bold">
-                        {currentLang === 'en' ? 'Pieces' : 'Parça'}: {product.pieceCount}
-                    </span>
-                    <span className="text-[10px] tracking-widest text-primary uppercase font-bold">
-                        {currentLang === 'en' ? 'Connections' : 'Geçiş'}: {product.connectionCount}
-                    </span>
-                </div>
+
                 <h3 className="text-lg md:text-xl text-white uppercase leading-tight font-bold tracking-wide">
                     {product.title}
                 </h3>
